@@ -1,0 +1,238 @@
+---
+title: "Assignment 2"
+author: " Vu Duc Thanh"
+output: html_document
+---
+
+
+```{r echo=FALSE, message=FALSE}
+library(dplyr)
+library(ggplot2)
+theme_set(theme_bw())
+```
+
+```{r}
+data <- read.csv("gardasil.csv",header=T)
+summary(data)
+str(data)
+
+```
+```{r}
+head(data)
+
+```
+
+```{r fig.width=5, fig.height=3}
+data %>%
+  ggplot(aes(x=Completed.within.12.months)) +
+  geom_bar(stat="count",color = "black", fill = "gray") +
+  xlab('Count') + ylab('Completed within 12 months') + ggtitle('Completed within 12 months')
+```
+
+```{r fig.width=5, fig.height=3}
+data %>%
+  ggplot(aes(Age, Completed.within.12.months)) + 
+  geom_boxplot()+
+  coord_flip()
+```
+```{r fig.height=15, fig.width=15}
+library(GGally)
+ggpairs(data)
+
+```
+
+
+```{r fig.width=12, fig.height=12,message=FALSE}
+require(gridExtra)
+p1<-data %>%
+    ggplot(aes(x=AgeGroup,fill=Completed.within.12.months)) + 
+        geom_bar(stat="count",color = "black",alpha = 0.65) +
+        scale_fill_manual(values = c("#0072B2", "#009E73"))
+p2<-data %>%
+    ggplot(aes(x=Race,fill=Completed.within.12.months)) + 
+        geom_bar(stat="count",color = "black",alpha = 0.65) +
+        scale_fill_manual(values = c("#0072B2", "#009E73"))
+#p3<-data %>%
+#    ggplot(aes(x=Shots,fill=Completed.within.12.months)) + 
+#        geom_histogram(binwidth = 0.5, color = "black",alpha = 0.65)+
+#        scale_fill_manual(values = c("#0072B2", "#009E73"))
+p3<-data %>%
+    ggplot(aes(x=Insurance.type,fill=Completed.within.12.months)) + 
+        geom_bar(stat="count",color = "black",alpha = 0.65) +
+        scale_fill_manual(values = c("#0072B2", "#009E73"))
+p4 <- data %>%
+     ggplot(aes(x=Clinic,fill=Completed.within.12.months)) + 
+        geom_bar(stat="count",color = "black",alpha = 0.65) +
+        scale_fill_manual(values = c("#0072B2", "#009E73"))
+p5 <- data %>%
+    ggplot(aes(x=Location.type,fill=Completed.within.12.months)) + 
+        geom_bar(stat="count",color = "black",alpha = 0.65) +
+        scale_fill_manual(values = c("#0072B2", "#009E73"))
+p6 <- data %>%
+    ggplot(aes(x=Practice.type,fill=Completed.within.12.months)) + 
+        geom_bar(stat="count",color = "black",alpha = 0.65)+
+        scale_fill_manual(values = c("#0072B2", "#009E73"))
+grid.arrange(p1,p2,p3,p4,p5,p6, ncol=2)
+#plot(data,"Shots","Completed.within.12.months")
+```
+
+```{r}
+chisq.test(data$AgeGroup,data$Completed.within.12.months, correct = F)
+chisq.test(data$Race,data$Completed.within.12.months, correct = F)
+chisq.test(data$Insurance.type,data$Completed.within.12.months, correct = F)
+chisq.test(data$Clinic,data$Completed.within.12.months, correct = F)
+chisq.test(data$Location.type,data$Completed.within.12.months, correct = F)
+chisq.test(data$Practice.type,data$Completed.within.12.months, correct = F)
+
+```
+```{r}
+chisq.test(data$AgeGroup,data$Completed.within.12.months, correct = F)$stdres
+chisq.test(data$Race,data$Completed.within.12.months, correct = F)$stdres
+chisq.test(data$Insurance.type,data$Completed.within.12.months, correct = F)$stdres
+chisq.test(data$Clinic,data$Completed.within.12.months, correct = F)$stdres
+chisq.test(data$Location.type,data$Completed.within.12.months, correct = F)$stdres
+chisq.test(data$Practice.type,data$Completed.within.12.months, correct = F)$stdres
+
+```
+ 
+
+```{r}
+cat(paste("black race completed the test",sum(data$Race=="black" &data$Completed.within.12.months=="yes")/sum(data$Race=="black")))
+
+cat("\n")
+cat(paste("white race completed the test",sum(data$Race=="white" &data$Completed.within.12.months=="yes")/sum(data$Race=="white")))
+
+cat("\n")
+cat(paste("Medical assistance completed the test",sum(data$Insurance.type=="medical assistance" &data$Completed.within.12.months=="yes")/sum(data$Insurance.type=="medical assistance")))
+
+cat("\n")
+cat(paste("Without medical assistance completed the test",sum(data$Insurance.type!="medical assistance" &data$Completed.within.12.months=="yes")/sum(data$Insurance.type!="medical assistance")))
+
+cat("\n")
+cat(paste("Clinic Bayview completed the test",sum(data$Clinic=="Bayview" &data$Completed.within.12.months=="yes")/sum(data$Clinic=="Bayview")))
+
+cat("\n")
+cat(paste("Clinic White Marsh completed the test",sum(data$Clinic=="White Marsh" &data$Completed.within.12.months=="yes")/sum(data$Clinic=="White Marsh")))
+
+
+cat("\n")
+cat(paste("People in suburban  completed the test",sum(data$Location.type=="suburban" &data$Completed.within.12.months=="yes")/sum(data$Location.type=="suburban")))
+
+cat("\n")
+cat(paste("People in urban  completed the test",sum(data$Location.type=="urban" &data$Completed.within.12.months=="yes")/sum(data$Location.type=="urban")))
+
+```
+```{r}
+cat(paste("black race completed the test",sum(data$Race=="black" &data$Completed.within.12.months=="no")/sum(data$Race=="black")))
+
+cat("\n")
+cat(paste("white race completed the test",sum(data$Race=="white" &data$Completed.within.12.months=="no")/sum(data$Race=="white")))
+
+cat("\n")
+cat(paste("Medical assistance completed the test",sum(data$Insurance.type=="medical assistance" &data$Completed.within.12.months=="no")/sum(data$Insurance.type=="medical assistance")))
+
+cat("\n")
+cat(paste("Without medical assistance completed the test",sum(data$Insurance.type!="medical assistance" &data$Completed.within.12.months=="no")/sum(data$Insurance.type!="medical assistance")))
+
+cat("\n")
+cat(paste("Clinic Bayview completed the test",sum(data$Clinic=="Bayview" &data$Completed.within.12.months=="no")/sum(data$Clinic=="Bayview")))
+
+cat("\n")
+cat(paste("Clinic White Marsh completed the test",sum(data$Clinic=="White Marsh" &data$Completed.within.12.months=="no")/sum(data$Clinic=="White Marsh")))
+
+
+cat("\n")
+cat(paste("People in suburban  completed the test",sum(data$Location.type=="suburban" &data$Completed.within.12.months=="no")/sum(data$Location.type=="suburban")))
+
+cat("\n")
+cat(paste("People in urban  completed the test",sum(data$Location.type=="urban" &data$Completed.within.12.months=="no")/sum(data$Location.type=="urban")))
+
+
+
+```
+
+```{r}
+surburban_no <- sum(data$Location.type=="suburban" & data$Completed.within.12.months=="no")
+surburban_yes <- sum(data$Location.type=="suburban" & data$Completed.within.12.months=="yes")
+
+urban_no <- sum(data$Location.type=="urban" & data$Completed.within.12.months=="no")
+urban_yes <- sum(data$Location.type=="urban" & data$Completed.within.12.months=="yes")
+
+sum_surburban <- sum(data$Location.type=="suburban")
+
+sum_urban <- sum(data$Location.type=="urban")
+
+prop.test(x = c(surburban_yes, urban_yes),
+          n = c(sum_surburban, sum_urban),
+          alternative = "two.sided",
+          correct = FALSE)
+```
+```{r}
+age_fisrt_no <- sum(data$AgeGroup=="11-17 years" & data$Completed.within.12.months=="no")
+age_fisrt_yes <- sum(data$AgeGroup=="11-17 years" & data$Completed.within.12.months=="yes")
+
+age_second_no <- sum(data$AgeGroup=="18-26 years" & data$Completed.within.12.months=="no")
+age_second_yes <- sum(data$AgeGroup=="18-26 years" & data$Completed.within.12.months=="yes")
+
+sum_age_fisrt <- sum(data$AgeGroup=="11-17 years")
+
+sum_age_second <- sum(data$AgeGroup=="18-26 years")
+
+prop.test(x = c(age_fisrt_yes, age_second_yes),
+          n = c(sum_age_fisrt, sum_age_second),
+          alternative = "greater",
+          correct = FALSE)
+
+```
+Compare mean t-test
+```{r}
+yes_age<- data$Age[data$Completed.within.12.months=='yes']
+no_age <- data$Age[data$Completed.within.12.months=='no']
+t.test(yes_age,no_age)
+```
+Conclusion:
+
+##Chi- square test
+
+The residuals are approximately normal, so we could check the cells with values >3 and <-3, for example.
+
+Results:
+
+Black and white race are significant.
+
+Medical assistance in insurance type is significant.
+
+Clinic location at Bay view and white mash are significant.
+
+Location type (surbuban and urban) data is significant.
+
+Completed: 
+
+           23% of black race completed the test vs 38% of white people
+
+           20% of people completed medical assistance vs 36% of others
+           
+           26% of clinic Bayview vs 48% of clinic White Marsh
+           
+           36% of people in surburban vs 25% of people in urban
+          
+Not finished: 
+
+          77% of black race  vs 62% of white people
+
+          80% of people with medical assistance vs 64% of others
+          
+          74% of clinic Bayview vs 52% of clinic White Marsh
+          
+          64% of people in surburban vs 75% of people in urban
+          
+##Perform proportion test:
+
+People in suburban are likely to completed compared to who live in urban area with p_value= 1.802e-05
+
+
+People with the age between 11-17 tended to fished than people with age from 18-26 with p_value= 0.006472
+
+##t-test
+
+The mean of of age in both "yes" and "no" are equal. 
