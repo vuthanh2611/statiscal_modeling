@@ -1,0 +1,511 @@
+---
+title: "Student linear regression"
+author: "Vu Duc Thanh"
+output: html_document
+---
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(lattice)
+library(MASS)
+library(lmtest)
+library(sandwich)
+library(mvtnorm)
+library(car)
+library(dplyr)
+library(ggplot2)
+library(gridExtra)
+library(GGally)
+theme_set(theme_bw())
+
+mycol <- rgb(30,30,30,100,maxColorValue=255)
+
+mycoeftest <- function(m, EstType){
+  beta  <- coef(m)[-1]
+  Vbeta <- vcovHC(m, type = EstType)[-1,-1]
+  D <- diag(1 / sqrt(diag(Vbeta)))
+  t <- D %*% beta
+  Cor <- D %*% Vbeta %*% t(D)
+  if (EstType == "const"){
+    m.df <- length(m$residuals) - length(beta)
+  }else{
+    m.df=Inf
+  }
+  p_adj <- sapply(abs(t), function(x) 1-pmvt(-rep(x, length(beta)), rep(x, length(beta)), corr = Cor, df = m.df))
+  c(NaN, p_adj)
+}
+
+addtrend <- function(x, y){
+  y <- y[order(x)]
+  x <- sort(x)  
+  lines(x, predict(loess(y ~ x)), col = "red")
+}
+```
+```{r echo=F}
+library(readxl)
+df<- read_excel("student-por.xlsx",sheet="student-por")
+head(df)
+```
+
+  Visualize the data
+
+  History plot of G1,G2 and G3
+
+```{r fig.width=5, fig.height=3}
+g3<-df %>%
+  ggplot(aes(x=G3)) +
+  geom_bar(stat="count",color = "black", fill = "gray") +
+  xlab('Count') + ylab('G3') + ggtitle('G3')
+g2<-df %>%
+  ggplot(aes(x=G2)) +
+  geom_bar(stat="count",color = "black", fill = "gray") +
+  xlab('Count') + ylab('G2') + ggtitle('G2')
+g1<-df %>%
+  ggplot(aes(x=G1)) +
+  geom_bar(stat="count",color = "black", fill = "gray") +
+  xlab('Count') + ylab('G1') + ggtitle('G1')
+grid.arrange(g1,g2,g3, ncol=3)
+```
+  Count plot of absences and age
+  
+```{r fig.width=8,fig.height=3,warning=FALSE}
+ab_plot <- df %>% ggplot(aes(absences))+
+        geom_bar(stat="count",color = "black", fill = "gray") +
+        xlab('Count') + ylab('absences') + ggtitle('absences')
+age_plot <- df %>% ggplot(aes(age))+
+        geom_bar(stat="count",color = "black", fill = "gray") +
+        xlab('Count') + ylab('age') + ggtitle('age')
+grid.arrange(ab_plot,age_plot, ncol=2)
+```
+  Scatter plot between absence vs G3 and age vs G3
+
+```{r fig.width=8,fig.height=3,warning=FALSE}
+p1 <- df %>% ggplot(aes(absences,G3))+
+        geom_point(size = 2, color = "black") +
+        xlab('absences') + ylab('G3') + ggtitle('Scatter plot between absence and G3')
+
+p2<- df %>% ggplot(aes(age,G3))+
+        geom_point(size = 2, color = "black") +
+        xlab('age') + ylab('G3') + ggtitle('Scatter plot between age and G3')
+grid.arrange(p1,p2, ncol=2)
+```
+  Box plot of various features vs G3
+  
+```{r fig.width=8,fig.height=8,warning=FALSE}
+library(ggplot2)
+library(gridExtra)
+number_cat <- c("Medu","Fedu","traveltime","studytime","failures","famrel","freetime","goout","Dalc","Walc","health")
+category <- setdiff(colnames(df),c(c('age','G1','G2','G3',"absences"),number_cat))
+
+#category <-c("school","sex","address")
+plot_list <- list()
+
+
+for (col in category){
+    myplot <- ggplot(df,aes(x=.data[[col]],y=G3)) +
+              geom_boxplot()+
+              xlab(col) + ylab('G3')+
+              labs(title = paste("Plot of", col))
+     plot_list[[col]] <- myplot
+}
+grid.arrange(grobs = plot_list, ncol = 3)
+```
+
+```{r fig.width=8,fig.height=6}
+library(ggplot2)
+library(gridExtra)
+number_cat <- c("Medu","Fedu","traveltime","studytime","failures","famrel","freetime","goout","Dalc","Walc","health")
+num_df <- df[,c(number_cat,"G3")]
+num_df[,number_cat]<-lapply(num_df[,number_cat],as.character)
+#str(num_df)
+numdf_plot <- list()
+
+for (cat in number_cat){
+    myplot <- ggplot(num_df,aes(x=.data[[cat]],y=G3)) +
+              geom_boxplot()+
+              xlab(cat) + ylab('G3')+
+              labs(title = paste("Plot of", cat))
+     numdf_plot[[cat]] <- myplot
+}
+grid.arrange(grobs = numdf_plot, ncol = 3)
+
+ 
+```
+  Dummies encoding categorical data
+
+```{r,message=FALSE}
+library(caret)
+
+cate_df <- df[,category]
+new_df <- model.matrix(~.-1, data = cate_df)
+
+combined_df <- cbind(new_df,df[,c(number_cat,"absences","G3")])
+combined_df <- subset(combined_df, select = -schoolGP)
+head(combined_df)
+```
+
+Building the first model including all features
+
+```{r}
+model1 <- lm(G3 ~ ., data = combined_df)
+
+```
+
+Residuals visual inspection:
+
+```{r, echo=FALSE, fig.height=6, fig.width=10,warning=FALSE}
+par(mfrow=c(2,2))
+
+qqnorm(residuals(model1))
+qqline(residuals(model1), col="red")
+grid()
+
+plot(combined_df$absences, rstandard(model1), xlab="absences", ylab="Standardized residuals", col=mycol, pch=19)
+addtrend(combined_df$absences, rstandard(model1))
+grid()
+
+plot(combined_df$Dalc, rstandard(model1), xlab="Dalc", ylab="Standardized residuals", col=mycol, pch=19)
+addtrend(combined_df$Dalc, rstandard(model1))
+grid()
+
+plot(combined_df$Walc, rstandard(model1), xlab="Walc", ylab="Standardized residuals", col=mycol, pch=19)
+addtrend(combined_df$Walc, rstandard(model1))
+grid()
+
+
+
+```
+Follow-up tests for the residuals:
+
+Test         | p-value 
+----------   | ---------
+Shapiro-Wilk | `r shapiro.test(residuals(model1))$p.value`
+Breusch-Pagan| `r bptest(model1)$p.value`
+```{r}
+shapiro.test(residuals(model1))$p.value
+bptest(model1)$p.value
+```
+They are not normal and heteroscedastic, so we’ll need to use White’s correction as well as adjustment for multiplicity when estimating the significance of the predictors:
+
+```{r, echo=FALSE}
+s1 <-summary(model1)
+s1$coefficients <- cbind(s1$coefficients, mycoeftest(model1, "HC0"))
+dimnames(s1$coefficients)[[2]][5] <- "Adjusted p-value"
+print(s1)
+```
+Significant features: SchoolMS, schoolsupyes,studytime,higheryes, failures. Even though, Dalc and Walc not significant important. We still keep in the model          
+
+Model 2: Remove all insignificant predictors, only keep SchoolMS, schoolsupyes,studytime,higheryes, failures, Dalc, Walc 
+
+```{r}
+model2 <- lm(G3 ~ schoolMS+schoolsupyes+studytime+failures+ higheryes+Dalc+ Walc , data = combined_df)
+```
+Residual visualization
+```{r, echo=FALSE, fig.height=6, fig.width=8,warning=FALSE}
+par(mfrow=c(2,2))
+
+qqnorm(residuals(model2))
+qqline(residuals(model2), col="red")
+grid()
+
+
+
+plot(combined_df$Dalc, rstandard(model2), xlab="Dalc", ylab="Standardized residuals", col=mycol, pch=19)
+addtrend(combined_df$Dalc, rstandard(model2))
+grid()
+
+plot(combined_df$Walc, rstandard(model2), xlab="Walc", ylab="Standardized residuals", col=mycol, pch=19)
+addtrend(combined_df$Walc, rstandard(model2))
+grid()
+
+
+```
+Follow-up tests for the residuals:
+
+Test         | p-value 
+----------   | ---------
+Shapiro-Wilk | `r shapiro.test(residuals(model2))$p.value`
+Breusch-Pagan| `r bptest(model2)$p.value`
+```{r}
+shapiro.test(residuals(model2))$p.value
+bptest(model2)$p.value
+```
+They are not normal and heteroscedastic, so we’ll need to use White’s correction as well as adjustment for multiplicity when estimating the significance of the predictors:
+
+```{r, echo=FALSE}
+s2 <-summary(model2)
+s2$coefficients <- cbind(s2$coefficients, mycoeftest(model2, "HC0"))
+dimnames(s2$coefficients)[[2]][5] <- "Adjusted p-value"
+print(s2)
+```
+All the features  are significant. 
+
+Use wald test to compare with model 1
+
+```{r, echo=FALSE}
+waldtest(model1, model2, vcov = vcovHC(model1, type = "HC0"))
+```
+The P value is significant, so at least one of the features in the model 1 is important. 
+
+Trying to bring the deleted features back one by one:
+
+```{r, echo=FALSE}
+
+add_col_name <- setdiff(colnames(combined_df),c("schoolMS","schoolsupyes","studytime", 
+    "failures","higheryes","Dalc", "Walc","G3"))
+
+add1(model2, ~ .+sexM+addressU + famsizeLE3 + PstatusT + Mjobhealth + Mjobother + 
+    Mjobservices + Mjobteacher + Fjobhealth + Fjobother + Fjobservices + 
+    Fjobteacher + reasonhome + reasonother + reasonreputation + 
+    guardianmother + guardianother + famsupyes + paidyes + activitiesyes + 
+    nurseryyes  + internetyes + romanticyes + Medu + 
+    Fedu + traveltime + famrel + freetime + goout + health+ 
+    absences,test="F")
+```
+The best is the model with the Fjobteacher,Medu, Fedu,health brought back:
+
+```{r}
+model3 <- lm(G3 ~ schoolMS+schoolsupyes+studytime+failures+ higheryes+Dalc+ Walc+Fjobteacher+Medu+ Fedu+health , data = combined_df)
+
+```
+
+Residual visualization
+
+```{r, echo=FALSE, fig.height=8, fig.width=10,warning=FALSE}
+par(mfrow=c(2,2))
+qqnorm(residuals(model3))
+qqline(residuals(model3), col="red")
+grid()
+plot(combined_df$Dalc, rstandard(model3), xlab="Dalc", ylab="Standardized residuals", col=mycol, pch=19)
+addtrend(combined_df$Dalc, rstandard(model3))
+grid()
+
+plot(combined_df$Walc, rstandard(model3), xlab="Walc", ylab="Standardized residuals", col=mycol, pch=19)
+addtrend(combined_df$Walc, rstandard(model3))
+grid()
+```
+Follow-up tests for the residuals:
+
+Test         | p-value 
+----------   | ---------
+Shapiro-Wilk | `r shapiro.test(residuals(model3))$p.value`
+Breusch-Pagan| `r bptest(model3)$p.value`
+```{r}
+shapiro.test(residuals(model3))$p.value
+bptest(model3)$p.value
+```
+They are not normal and heteroscedastic, so we’ll need to use White’s correction as well as adjustment for multiplicity when estimating the significance of the predictors:
+
+```{r, echo=FALSE}
+s3 <-summary(model3)
+s3$coefficients <- cbind(s3$coefficients, mycoeftest(model3, "HC0"))
+dimnames(s3$coefficients)[[2]][5] <- "Adjusted p-value"
+print(s3)
+```
+
+```{r, echo=FALSE}
+waldtest(model3, model2, vcov = vcovHC(model3, type = "HC0"))
+```
+
+Model 3 is significant better than model 2. However, there is still some insignificant features in model 3. 
+
+Try interaction
+
+```{r, echo=FALSE}
+add1(model3, ~ .^2, test="F")
+```
+Remove Medu,Fedu,Fjobteacher. Add interaction between Fjobteacher:health,Dalc:Fedu,Dalc:Medu  
+
+Add interaction to model 4
+
+```{r}
+model4 <- lm(G3 ~ schoolMS+schoolsupyes+studytime+failures+ higheryes+Dalc+ Walc+health+
+               Fjobteacher*health+Dalc*Fedu+Dalc*Medu, data = combined_df)
+```
+
+Residual visualization
+
+```{r, echo=FALSE, fig.height=8, fig.width=10,warning=FALSE}
+par(mfrow=c(2,2))
+qqnorm(residuals(model4))
+qqline(residuals(model4), col="red")
+grid()
+plot(combined_df$Dalc, rstandard(model4), xlab="Dalc", ylab="Standardized residuals", col=mycol, pch=19)
+addtrend(combined_df$Dalc, rstandard(model4))
+grid()
+
+plot(combined_df$Walc, rstandard(model4), xlab="Walc", ylab="Standardized residuals", col=mycol, pch=19)
+addtrend(combined_df$Walc, rstandard(model4))
+grid()
+```
+
+Follow-up tests for the residuals:
+
+Test         | p-value 
+----------   | ---------
+Shapiro-Wilk | `r shapiro.test(residuals(model4))$p.value`
+Breusch-Pagan| `r bptest(model4)$p.value`
+```{r}
+shapiro.test(residuals(model4))$p.value
+bptest(model4)$p.value
+```
+They are not normal and heteroscedastic, so we’ll need to use White’s correction as well as adjustment for multiplicity when estimating the significance of the predictors:
+
+```{r, echo=FALSE}
+s4 <-summary(model4)
+s4$coefficients <- cbind(s4$coefficients, mycoeftest(model4, "HC0"))
+dimnames(s4$coefficients)[[2]][5] <- "Adjusted p-value"
+print(s4)
+```
+
+Comparing to model 4,3 with Wald's test with White's correction:
+
+```{r, echo=FALSE}
+waldtest(model4, model3, vcov = vcovHC(model4, type = "HC0"))
+```
+Model 4 is significant better than model 3. However, we still see some insignificant variables. 
+
+Remove interaction between Dalc:Medu, Dalc:Medu
+
+```{r}
+model5 <- lm(G3 ~ schoolMS+schoolsupyes+studytime+failures+ higheryes+Dalc+ Walc+health+
+               Fjobteacher*health, data = combined_df)
+```
+
+Residual visualization
+
+```{r, echo=FALSE, fig.height=8, fig.width=10,warning=FALSE}
+par(mfrow=c(2,2))
+qqnorm(residuals(model5))
+qqline(residuals(model5), col="red")
+grid()
+plot(combined_df$Dalc, rstandard(model5), xlab="Dalc", ylab="Standardized residuals", col=mycol, pch=19)
+addtrend(combined_df$Dalc, rstandard(model5))
+grid()
+
+plot(combined_df$Walc, rstandard(model5), xlab="Walc", ylab="Standardized residuals", col=mycol, pch=19)
+addtrend(combined_df$Walc, rstandard(model5))
+grid()
+```
+
+Follow-up tests for the residuals:
+
+Test         | p-value 
+----------   | ---------
+Shapiro-Wilk | `r shapiro.test(residuals(model5))$p.value`
+Breusch-Pagan| `r bptest(model5)$p.value`
+```{r}
+shapiro.test(residuals(model5))$p.value
+bptest(model5)$p.value
+```
+They are not normal and heteroscedastic, so we’ll need to use White’s correction as well as adjustment for multiplicity when estimating the significance of the predictors:
+
+```{r, echo=FALSE}
+s5 <-summary(model5)
+s5$coefficients <- cbind(s5$coefficients, mycoeftest(model5, "HC0"))
+dimnames(s5$coefficients)[[2]][5] <- "Adjusted p-value"
+print(s5)
+```
+All the features except health are significant
+
+Comparing to model 5,4 with Wald's test with White's correction:
+
+```{r, echo=FALSE}
+waldtest(model4, model5, vcov = vcovHC(model4, type = "HC0"))
+```
+Model 4 is still better than model 5, try to bring the deleted features back one by one
+
+```{r}
+add1(model5, ~ .+ Dalc:Fedu + Dalc:Medu,test="F")
+```
+Cannot to bring any of the deleted features back. Move to use cook distance
+
+
+### Cook's distance
+
+What are the influential observations?
+
+```{r, echo=FALSE, fig.width=10}
+par(mfrow=c(1,2))
+plot(fitted(model5), cooks.distance(model5), xlab="Fitted G3", ylab="Cook's distance", col=mycol, pch=19)
+lines(c(-100,100), c(0.015, 0.015), col="red")
+plot(combined_df$G3, cooks.distance(model5), xlab="G3", ylab="Cook's distance", col=mycol, pch=19)
+lines(c(-100,100), c(0.015, 0.015), col="red")
+```
+Removing the observations with Cook's distance above 0.018 (the threshold is chosen by visual inspection) and re-tuning the model 5 on the reduced dataset.
+
+```{r, echo=FALSE}
+#excluded_df <- rbind(excluded_df, combined_df[cooks.distance(model4)>0.02,])
+df2 <-combined_df[cooks.distance(model5)<=0.018,]
+model6 <- lm(G3 ~ schoolMS+schoolsupyes+studytime+failures+ higheryes+Dalc+ Walc+health+
+               Fjobteacher*health, data = df2)
+```
+Let's compare the coefficients of the new model with ones of the original model 5:
+```{r, echo=FALSE}
+res <- cbind(coefficients(model5), coefficients(model6))
+colnames(res) <- c("All data", "Filtered data")
+res
+```
+Some coefficients have changed drastically, which means that the removal of influential observations did make sence.
+
+The residuals of the new model:
+
+```{r, echo=FALSE, fig.height=8, fig.width=10,warning=FALSE}
+par(mfrow=c(2,2))
+qqnorm(residuals(model6))
+qqline(residuals(model6), col="red")
+grid()
+plot(df2$Dalc, rstandard(model6), xlab="Dalc", ylab="Standardized residuals", col=mycol, pch=19)
+addtrend(df2$Dalc, rstandard(model6))
+grid()
+
+plot(df2$Walc, rstandard(model6), xlab="Walc", ylab="Standardized residuals", col=mycol, pch=19)
+addtrend(df2$Walc, rstandard(model6))
+grid()
+```
+Follow-up tests for the residuals:
+
+Test         | p-value 
+----------   | ---------
+Shapiro-Wilk | `r shapiro.test(residuals(model6))$p.value`
+Breusch-Pagan| `r bptest(model6)$p.value`
+
+```{r}
+shapiro.test(residuals(model6))$p.value
+bptest(model6)$p.value
+```
+nonnormal and heteroscedastic. Significance testing with White's correction and multiplicity adjustment:
+
+```{r, echo=FALSE}
+s6 <-summary(model6)
+s6$coefficients <- cbind(s6$coefficients, mycoeftest(model6, "HC0"))
+dimnames(s6$coefficients)[[2]][5] <- "Adjusted p-value"
+print(s6)
+```
+## Results
+
+The final model (#6) is build using `r dim(df2)[1]` of the initial 649  datapoints; it explains 
+ `r round(100*summary(model6)$r.squared)` % of the variation in the G3:
+
+```{r, echo=FALSE, fig.height=5, fig.width=5}
+par(mfrow=c(1,1))
+plot(df2$G3, fitted(model6), xlab="G3", ylab="Predicted G3", pch=19, col=mycol, xlim=c(0,20),
+     ylim=c(0,20)
+     )
+lines(c(0,20), c(0,20), col="red")
+#points(excluded$logwage, predict(m6, excluded), col="red", pch=19)
+grid()
+```
+
+
+  
+The factors we are interested in - the indicators of effect of alcohol to the final grade - have the following coefficients in the model:
+
+
+
+```{r, echo=FALSE}
+
+coefficients(model6)[c("Dalc", "Walc")]
+confint(model6)[c("Dalc", "Walc"),]
+```
+An unit increase in daily alcohol consumption decreases average grades by 0.14 (95% confidence interval for the decrease - [0.41, 0.13])
+
+An unit increase in daily alcohol consumption decreases average grades by 0.14 (95% confidence interval for the decrease - [0.34, 0.05])
