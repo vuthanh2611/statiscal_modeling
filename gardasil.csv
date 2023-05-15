@@ -1,0 +1,1414 @@
+﻿Age,AgeGroup,Race,Shots,Completed within 12 months,Insurance type,Clinic,Location type,Practice type
+11,11-17 years,black,1,no,medical assistance,Odenton,suburban,pediatric
+11,11-17 years,black,3,yes,military,Odenton,suburban,pediatric
+11,11-17 years,black,1,no,private payer,Odenton,suburban,family practice
+11,11-17 years,black,2,no,private payer,Odenton,suburban,family practice
+11,11-17 years,black,3,no,private payer,Odenton,suburban,pediatric
+11,11-17 years,white,1,no,private payer,Odenton,suburban,pediatric
+11,11-17 years,white,2,no,private payer,Odenton,suburban,pediatric
+11,11-17 years,white,3,yes,military,Odenton,suburban,pediatric
+11,11-17 years,black,1,no,private payer,Odenton,suburban,pediatric
+11,11-17 years,white,3,yes,military,Odenton,suburban,pediatric
+11,11-17 years,white,3,yes,private payer,Odenton,suburban,OB-GYN
+11,11-17 years,black,1,no,medical assistance,Bayview,urban,pediatric
+11,11-17 years,black,3,yes,medical assistance,Bayview,urban,pediatric
+11,11-17 years,Hispanic,3,yes,medical assistance,Bayview,urban,pediatric
+11,11-17 years,white,3,yes,private payer,Bayview,urban,pediatric
+11,11-17 years,Hispanic,1,no,medical assistance,Bayview,urban,pediatric
+11,11-17 years,white,3,yes,medical assistance,Bayview,urban,pediatric
+11,11-17 years,black,2,no,medical assistance,Bayview,urban,pediatric
+11,11-17 years,white,3,no,medical assistance,Bayview,urban,pediatric
+11,11-17 years,Hispanic,3,yes,medical assistance,Bayview,urban,pediatric
+11,11-17 years,black,2,no,private payer,Bayview,urban,pediatric
+11,11-17 years,Hispanic,2,no,medical assistance,Bayview,urban,pediatric
+11,11-17 years,white,3,yes,hospital based,Bayview,urban,pediatric
+11,11-17 years,black,1,no,medical assistance,Bayview,urban,pediatric
+11,11-17 years,black,1,no,hospital based,Bayview,urban,pediatric
+11,11-17 years,white,1,no,private payer,Bayview,urban,pediatric
+11,11-17 years,black,2,no,medical assistance,Bayview,urban,pediatric
+11,11-17 years,white,1,no,medical assistance,Bayview,urban,pediatric
+11,11-17 years,white,3,yes,private payer,Bayview,urban,pediatric
+11,11-17 years,black,3,yes,medical assistance,Bayview,urban,pediatric
+12,11-17 years,black,3,yes,military,Odenton,suburban,pediatric
+12,11-17 years,other/unknown,2,no,private payer,Odenton,suburban,family practice
+12,11-17 years,white,1,no,military,Odenton,suburban,pediatric
+12,11-17 years,other/unknown,3,yes,military,Odenton,suburban,pediatric
+12,11-17 years,white,1,no,military,Odenton,suburban,family practice
+12,11-17 years,white,3,no,medical assistance,Odenton,suburban,family practice
+12,11-17 years,black,1,no,medical assistance,Odenton,suburban,pediatric
+12,11-17 years,other/unknown,3,yes,military,Odenton,suburban,pediatric
+12,11-17 years,white,2,no,private payer,Odenton,suburban,pediatric
+12,11-17 years,black,3,no,medical assistance,Odenton,suburban,pediatric
+12,11-17 years,black,3,yes,private payer,Odenton,suburban,pediatric
+12,11-17 years,white,3,yes,military,Odenton,suburban,pediatric
+12,11-17 years,white,2,no,military,Odenton,suburban,pediatric
+12,11-17 years,white,3,yes,military,Odenton,suburban,pediatric
+12,11-17 years,white,3,yes,private payer,Odenton,suburban,family practice
+12,11-17 years,other/unknown,1,no,military,Odenton,suburban,pediatric
+12,11-17 years,other/unknown,3,yes,military,Odenton,suburban,pediatric
+12,11-17 years,white,2,no,military,Odenton,suburban,family practice
+12,11-17 years,white,2,no,military,Odenton,suburban,family practice
+12,11-17 years,other/unknown,3,yes,military,Odenton,suburban,pediatric
+12,11-17 years,black,3,yes,private payer,Odenton,suburban,pediatric
+12,11-17 years,other/unknown,1,no,private payer,Odenton,suburban,family practice
+12,11-17 years,other/unknown,3,yes,military,Odenton,suburban,pediatric
+12,11-17 years,white,3,yes,military,Odenton,suburban,family practice
+12,11-17 years,white,3,no,military,Odenton,suburban,pediatric
+12,11-17 years,white,1,no,private payer,Odenton,suburban,pediatric
+12,11-17 years,black,3,yes,private payer,Odenton,suburban,pediatric
+12,11-17 years,white,3,yes,military,Odenton,suburban,pediatric
+12,11-17 years,other/unknown,3,yes,private payer,Odenton,suburban,pediatric
+12,11-17 years,black,3,yes,private payer,Odenton,suburban,pediatric
+12,11-17 years,other/unknown,3,yes,private payer,Odenton,suburban,family practice
+12,11-17 years,white,3,no,military,Odenton,suburban,family practice
+12,11-17 years,other/unknown,3,yes,military,Odenton,suburban,pediatric
+12,11-17 years,white,1,no,military,Odenton,suburban,pediatric
+12,11-17 years,black,3,yes,private payer,Odenton,suburban,pediatric
+12,11-17 years,other/unknown,3,yes,private payer,Odenton,suburban,family practice
+12,11-17 years,black,2,no,military,Odenton,suburban,pediatric
+12,11-17 years,black,2,no,private payer,Odenton,suburban,pediatric
+12,11-17 years,black,2,no,medical assistance,Bayview,urban,pediatric
+12,11-17 years,other/unknown,2,no,medical assistance,Bayview,urban,pediatric
+12,11-17 years,white,1,no,medical assistance,Bayview,urban,pediatric
+12,11-17 years,white,2,no,hospital based,Bayview,urban,pediatric
+12,11-17 years,black,1,no,medical assistance,Bayview,urban,pediatric
+12,11-17 years,white,3,yes,medical assistance,Bayview,urban,pediatric
+12,11-17 years,white,3,yes,medical assistance,Bayview,urban,pediatric
+12,11-17 years,Hispanic,1,no,medical assistance,Bayview,urban,pediatric
+12,11-17 years,black,3,yes,medical assistance,Bayview,urban,pediatric
+12,11-17 years,Hispanic,1,no,medical assistance,Bayview,urban,pediatric
+12,11-17 years,black,2,no,medical assistance,Bayview,urban,pediatric
+12,11-17 years,black,2,no,medical assistance,Bayview,urban,pediatric
+12,11-17 years,white,1,no,medical assistance,Bayview,urban,pediatric
+12,11-17 years,white,1,no,medical assistance,Bayview,urban,pediatric
+12,11-17 years,white,3,yes,medical assistance,Bayview,urban,pediatric
+12,11-17 years,white,1,no,medical assistance,Bayview,urban,pediatric
+12,11-17 years,white,1,no,private payer,Bayview,urban,pediatric
+12,11-17 years,black,1,no,medical assistance,Bayview,urban,pediatric
+12,11-17 years,black,2,no,medical assistance,Bayview,urban,pediatric
+12,11-17 years,white,2,no,private payer,Bayview,urban,pediatric
+12,11-17 years,Hispanic,3,yes,medical assistance,Bayview,urban,pediatric
+12,11-17 years,black,1,no,private payer,Bayview,urban,pediatric
+12,11-17 years,black,1,no,private payer,Bayview,urban,pediatric
+12,11-17 years,black,2,no,private payer,Bayview,urban,pediatric
+12,11-17 years,black,2,no,medical assistance,Bayview,urban,pediatric
+12,11-17 years,white,3,yes,medical assistance,Bayview,urban,pediatric
+12,11-17 years,Hispanic,2,no,medical assistance,Bayview,urban,pediatric
+12,11-17 years,white,1,no,military,Bayview,urban,pediatric
+12,11-17 years,white,1,no,medical assistance,Bayview,urban,pediatric
+12,11-17 years,black,2,no,private payer,Bayview,urban,pediatric
+12,11-17 years,white,2,no,hospital based,Bayview,urban,pediatric
+12,11-17 years,black,2,no,medical assistance,Bayview,urban,pediatric
+12,11-17 years,black,1,no,private payer,Bayview,urban,pediatric
+12,11-17 years,white,1,no,medical assistance,Bayview,urban,pediatric
+12,11-17 years,white,2,no,medical assistance,Bayview,urban,pediatric
+12,11-17 years,black,1,no,medical assistance,Bayview,urban,pediatric
+12,11-17 years,white,1,no,private payer,Johns Hopkins Outpatient Center,urban,OB-GYN
+13,11-17 years,other/unknown,3,yes,private payer,Odenton,suburban,pediatric
+13,11-17 years,black,2,no,military,Odenton,suburban,pediatric
+13,11-17 years,white,3,yes,private payer,Odenton,suburban,family practice
+13,11-17 years,black,3,no,private payer,Odenton,suburban,pediatric
+13,11-17 years,other/unknown,2,no,private payer,Odenton,suburban,family practice
+13,11-17 years,black,1,no,military,Odenton,suburban,pediatric
+13,11-17 years,black,3,no,military,Odenton,suburban,family practice
+13,11-17 years,black,3,yes,military,Odenton,suburban,pediatric
+13,11-17 years,other/unknown,3,yes,military,Odenton,suburban,pediatric
+13,11-17 years,other/unknown,3,no,medical assistance,Odenton,suburban,pediatric
+13,11-17 years,white,2,no,military,Odenton,suburban,pediatric
+13,11-17 years,white,3,yes,military,Odenton,suburban,pediatric
+13,11-17 years,white,3,yes,military,Odenton,suburban,pediatric
+13,11-17 years,other/unknown,3,yes,hospital based,Odenton,suburban,family practice
+13,11-17 years,white,3,yes,private payer,Odenton,suburban,pediatric
+13,11-17 years,white,2,no,private payer,Odenton,suburban,pediatric
+13,11-17 years,black,2,no,medical assistance,Odenton,suburban,pediatric
+13,11-17 years,white,3,no,military,Odenton,suburban,pediatric
+13,11-17 years,white,3,yes,military,Odenton,suburban,family practice
+13,11-17 years,white,2,no,military,Odenton,suburban,pediatric
+13,11-17 years,white,3,no,private payer,Odenton,suburban,pediatric
+13,11-17 years,black,3,yes,private payer,Odenton,suburban,pediatric
+13,11-17 years,black,3,yes,private payer,Odenton,suburban,pediatric
+13,11-17 years,white,3,yes,military,Odenton,suburban,pediatric
+13,11-17 years,white,1,no,military,Odenton,suburban,family practice
+13,11-17 years,black,2,no,private payer,Odenton,suburban,family practice
+13,11-17 years,white,1,no,military,Odenton,suburban,pediatric
+13,11-17 years,white,1,no,private payer,Odenton,suburban,pediatric
+13,11-17 years,black,3,yes,private payer,Odenton,suburban,family practice
+13,11-17 years,white,1,no,military,Odenton,suburban,family practice
+13,11-17 years,black,2,no,military,Odenton,suburban,pediatric
+13,11-17 years,white,3,no,military,Odenton,suburban,pediatric
+13,11-17 years,black,2,no,medical assistance,Odenton,suburban,family practice
+13,11-17 years,white,1,no,private payer,Odenton,suburban,pediatric
+13,11-17 years,white,3,no,military,Odenton,suburban,pediatric
+13,11-17 years,white,3,yes,private payer,Odenton,suburban,pediatric
+13,11-17 years,white,3,yes,private payer,Odenton,suburban,pediatric
+13,11-17 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+13,11-17 years,white,2,no,private payer,White Marsh,suburban,OB-GYN
+13,11-17 years,white,3,yes,private payer,Bayview,urban,pediatric
+13,11-17 years,other/unknown,2,no,private payer,Bayview,urban,pediatric
+13,11-17 years,white,1,no,medical assistance,Bayview,urban,pediatric
+13,11-17 years,black,3,yes,medical assistance,Bayview,urban,pediatric
+13,11-17 years,black,1,no,medical assistance,Bayview,urban,pediatric
+13,11-17 years,white,2,no,medical assistance,Bayview,urban,pediatric
+13,11-17 years,black,1,no,private payer,Bayview,urban,pediatric
+13,11-17 years,black,2,no,medical assistance,Bayview,urban,pediatric
+13,11-17 years,white,2,no,medical assistance,Bayview,urban,pediatric
+13,11-17 years,white,3,yes,medical assistance,Bayview,urban,pediatric
+13,11-17 years,black,1,no,medical assistance,Bayview,urban,pediatric
+13,11-17 years,black,1,no,medical assistance,Bayview,urban,pediatric
+13,11-17 years,white,3,yes,private payer,Bayview,urban,pediatric
+13,11-17 years,black,1,no,medical assistance,Bayview,urban,pediatric
+13,11-17 years,Hispanic,3,yes,medical assistance,Bayview,urban,pediatric
+13,11-17 years,black,2,no,medical assistance,Bayview,urban,pediatric
+13,11-17 years,white,2,no,medical assistance,Bayview,urban,pediatric
+13,11-17 years,black,3,yes,hospital based,Bayview,urban,pediatric
+13,11-17 years,white,3,yes,private payer,Bayview,urban,pediatric
+13,11-17 years,white,3,yes,hospital based,Bayview,urban,pediatric
+13,11-17 years,other/unknown,1,no,medical assistance,Bayview,urban,pediatric
+13,11-17 years,other/unknown,1,no,hospital based,Bayview,urban,pediatric
+13,11-17 years,white,1,no,private payer,Bayview,urban,pediatric
+13,11-17 years,black,2,no,private payer,Bayview,urban,pediatric
+13,11-17 years,white,2,no,hospital based,Bayview,urban,pediatric
+13,11-17 years,black,3,yes,medical assistance,Bayview,urban,pediatric
+13,11-17 years,white,1,no,medical assistance,Bayview,urban,pediatric
+13,11-17 years,Hispanic,1,no,medical assistance,Bayview,urban,pediatric
+13,11-17 years,white,2,no,private payer,Bayview,urban,pediatric
+13,11-17 years,white,3,yes,private payer,Bayview,urban,pediatric
+13,11-17 years,black,2,no,medical assistance,Bayview,urban,pediatric
+13,11-17 years,Hispanic,2,no,private payer,Bayview,urban,pediatric
+13,11-17 years,white,2,no,medical assistance,Bayview,urban,pediatric
+13,11-17 years,white,3,yes,private payer,Bayview,urban,pediatric
+13,11-17 years,white,1,no,medical assistance,Bayview,urban,pediatric
+13,11-17 years,white,3,yes,private payer,Bayview,urban,pediatric
+13,11-17 years,white,3,yes,medical assistance,Bayview,urban,pediatric
+13,11-17 years,Hispanic,2,no,medical assistance,Bayview,urban,pediatric
+13,11-17 years,black,1,no,medical assistance,Bayview,urban,pediatric
+13,11-17 years,white,2,no,medical assistance,Bayview,urban,pediatric
+13,11-17 years,black,1,no,private payer,Bayview,urban,pediatric
+13,11-17 years,black,2,no,private payer,Bayview,urban,pediatric
+13,11-17 years,white,3,no,medical assistance,Bayview,urban,pediatric
+13,11-17 years,white,2,no,medical assistance,Bayview,urban,pediatric
+14,11-17 years,white,3,yes,military,Odenton,suburban,pediatric
+14,11-17 years,white,1,no,military,Odenton,suburban,family practice
+14,11-17 years,white,3,yes,military,Odenton,suburban,family practice
+14,11-17 years,other/unknown,3,yes,private payer,Odenton,suburban,family practice
+14,11-17 years,black,3,no,military,Odenton,suburban,pediatric
+14,11-17 years,white,3,yes,military,Odenton,suburban,pediatric
+14,11-17 years,white,3,yes,military,Odenton,suburban,pediatric
+14,11-17 years,other/unknown,3,yes,private payer,Odenton,suburban,pediatric
+14,11-17 years,white,3,yes,private payer,Odenton,suburban,pediatric
+14,11-17 years,white,3,yes,military,Odenton,suburban,family practice
+14,11-17 years,other/unknown,3,yes,private payer,Odenton,suburban,pediatric
+14,11-17 years,white,1,no,military,Odenton,suburban,family practice
+14,11-17 years,black,3,yes,military,Odenton,suburban,pediatric
+14,11-17 years,white,3,yes,military,Odenton,suburban,pediatric
+14,11-17 years,black,2,no,medical assistance,Odenton,suburban,pediatric
+14,11-17 years,white,3,yes,private payer,Odenton,suburban,pediatric
+14,11-17 years,black,2,no,private payer,Odenton,suburban,family practice
+14,11-17 years,other/unknown,3,yes,military,Odenton,suburban,pediatric
+14,11-17 years,white,3,yes,military,Odenton,suburban,family practice
+14,11-17 years,white,2,no,military,Odenton,suburban,pediatric
+14,11-17 years,white,3,yes,military,Odenton,suburban,pediatric
+14,11-17 years,black,1,no,private payer,Odenton,suburban,pediatric
+14,11-17 years,black,3,no,medical assistance,Odenton,suburban,pediatric
+14,11-17 years,white,3,yes,private payer,Odenton,suburban,family practice
+14,11-17 years,white,3,yes,military,Odenton,suburban,pediatric
+14,11-17 years,other/unknown,2,no,military,Odenton,suburban,family practice
+14,11-17 years,black,3,yes,medical assistance,Odenton,suburban,pediatric
+14,11-17 years,white,1,no,military,Odenton,suburban,family practice
+14,11-17 years,white,3,yes,private payer,Odenton,suburban,pediatric
+14,11-17 years,white,3,no,military,Odenton,suburban,pediatric
+14,11-17 years,white,3,yes,military,Odenton,suburban,pediatric
+14,11-17 years,white,3,yes,military,Odenton,suburban,family practice
+14,11-17 years,white,3,yes,military,Odenton,suburban,pediatric
+14,11-17 years,white,3,yes,private payer,Odenton,suburban,family practice
+14,11-17 years,white,3,no,military,Odenton,suburban,pediatric
+14,11-17 years,white,1,no,medical assistance,Odenton,suburban,pediatric
+14,11-17 years,other/unknown,3,yes,military,Odenton,suburban,family practice
+14,11-17 years,white,2,no,private payer,Odenton,suburban,family practice
+14,11-17 years,black,3,yes,military,Odenton,suburban,pediatric
+14,11-17 years,other/unknown,2,no,private payer,Odenton,suburban,family practice
+14,11-17 years,black,2,no,military,Odenton,suburban,family practice
+14,11-17 years,white,3,no,military,Odenton,suburban,pediatric
+14,11-17 years,black,3,no,private payer,Odenton,suburban,pediatric
+14,11-17 years,white,1,no,private payer,White Marsh,suburban,OB-GYN
+14,11-17 years,black,3,yes,private payer,White Marsh,suburban,OB-GYN
+14,11-17 years,other/unknown,3,yes,private payer,Odenton,suburban,OB-GYN
+14,11-17 years,white,3,yes,private payer,Odenton,suburban,OB-GYN
+14,11-17 years,black,1,no,military,Odenton,suburban,OB-GYN
+14,11-17 years,other/unknown,1,no,private payer,Odenton,suburban,OB-GYN
+14,11-17 years,white,2,no,medical assistance,Bayview,urban,pediatric
+14,11-17 years,white,1,no,medical assistance,Bayview,urban,pediatric
+14,11-17 years,other/unknown,1,no,private payer,Bayview,urban,pediatric
+14,11-17 years,white,1,no,hospital based,Bayview,urban,pediatric
+14,11-17 years,white,3,yes,medical assistance,Bayview,urban,pediatric
+14,11-17 years,white,2,no,private payer,Bayview,urban,pediatric
+14,11-17 years,black,2,no,medical assistance,Bayview,urban,pediatric
+14,11-17 years,white,3,no,military,Bayview,urban,pediatric
+14,11-17 years,black,3,no,private payer,Bayview,urban,pediatric
+14,11-17 years,white,2,no,medical assistance,Bayview,urban,pediatric
+14,11-17 years,other/unknown,2,no,medical assistance,Bayview,urban,pediatric
+14,11-17 years,black,2,no,medical assistance,Bayview,urban,pediatric
+14,11-17 years,black,2,no,medical assistance,Bayview,urban,pediatric
+14,11-17 years,black,1,no,medical assistance,Bayview,urban,pediatric
+14,11-17 years,white,1,no,private payer,Bayview,urban,pediatric
+14,11-17 years,white,1,no,private payer,Bayview,urban,pediatric
+14,11-17 years,white,1,no,hospital based,Bayview,urban,pediatric
+14,11-17 years,white,3,yes,medical assistance,Bayview,urban,pediatric
+14,11-17 years,black,3,yes,medical assistance,Bayview,urban,pediatric
+14,11-17 years,other/unknown,1,no,medical assistance,Bayview,urban,pediatric
+14,11-17 years,white,2,no,medical assistance,Bayview,urban,pediatric
+14,11-17 years,white,2,no,medical assistance,Bayview,urban,pediatric
+14,11-17 years,white,3,yes,medical assistance,Bayview,urban,pediatric
+14,11-17 years,Hispanic,2,no,private payer,Bayview,urban,pediatric
+14,11-17 years,white,2,no,private payer,Bayview,urban,pediatric
+14,11-17 years,white,2,no,medical assistance,Bayview,urban,pediatric
+14,11-17 years,Hispanic,2,no,medical assistance,Bayview,urban,pediatric
+14,11-17 years,black,2,no,medical assistance,Bayview,urban,pediatric
+14,11-17 years,black,2,no,private payer,Bayview,urban,pediatric
+14,11-17 years,white,3,yes,private payer,Bayview,urban,pediatric
+14,11-17 years,white,3,yes,private payer,Bayview,urban,pediatric
+14,11-17 years,white,1,no,hospital based,Bayview,urban,pediatric
+14,11-17 years,white,1,no,medical assistance,Bayview,urban,pediatric
+14,11-17 years,white,2,no,private payer,Bayview,urban,pediatric
+14,11-17 years,black,2,no,medical assistance,Bayview,urban,pediatric
+14,11-17 years,black,1,no,medical assistance,Bayview,urban,pediatric
+15,11-17 years,other/unknown,3,yes,private payer,Odenton,suburban,pediatric
+15,11-17 years,black,1,no,private payer,Odenton,suburban,family practice
+15,11-17 years,white,2,no,military,Odenton,suburban,pediatric
+15,11-17 years,black,3,yes,private payer,Odenton,suburban,pediatric
+15,11-17 years,white,1,no,military,Odenton,suburban,family practice
+15,11-17 years,other/unknown,1,no,military,Odenton,suburban,pediatric
+15,11-17 years,white,1,no,private payer,Odenton,suburban,pediatric
+15,11-17 years,other/unknown,1,no,military,Odenton,suburban,pediatric
+15,11-17 years,other/unknown,1,no,military,Odenton,suburban,pediatric
+15,11-17 years,black,1,no,private payer,Odenton,suburban,family practice
+15,11-17 years,other/unknown,2,no,military,Odenton,suburban,pediatric
+15,11-17 years,other/unknown,3,yes,military,Odenton,suburban,pediatric
+15,11-17 years,black,1,no,military,Odenton,suburban,pediatric
+15,11-17 years,other/unknown,3,yes,private payer,Odenton,suburban,family practice
+15,11-17 years,black,2,no,medical assistance,Odenton,suburban,family practice
+15,11-17 years,black,1,no,private payer,Odenton,suburban,pediatric
+15,11-17 years,other/unknown,1,no,military,Odenton,suburban,family practice
+15,11-17 years,other/unknown,2,no,private payer,Odenton,suburban,family practice
+15,11-17 years,black,2,no,military,Odenton,suburban,pediatric
+15,11-17 years,black,2,no,private payer,Odenton,suburban,family practice
+15,11-17 years,white,3,yes,private payer,Odenton,suburban,family practice
+15,11-17 years,black,2,no,military,Odenton,suburban,pediatric
+15,11-17 years,white,3,yes,military,Odenton,suburban,pediatric
+15,11-17 years,other/unknown,3,yes,military,Odenton,suburban,pediatric
+15,11-17 years,other/unknown,1,no,military,Odenton,suburban,family practice
+15,11-17 years,Hispanic,3,yes,military,Odenton,suburban,pediatric
+15,11-17 years,white,3,yes,private payer,Odenton,suburban,pediatric
+15,11-17 years,white,2,no,military,Odenton,suburban,family practice
+15,11-17 years,white,3,yes,private payer,Odenton,suburban,family practice
+15,11-17 years,black,3,yes,military,Odenton,suburban,pediatric
+15,11-17 years,other/unknown,2,no,military,Odenton,suburban,family practice
+15,11-17 years,white,3,yes,military,Odenton,suburban,pediatric
+15,11-17 years,other/unknown,3,yes,military,Odenton,suburban,pediatric
+15,11-17 years,black,3,yes,private payer,Odenton,suburban,family practice
+15,11-17 years,other/unknown,3,yes,military,Odenton,suburban,pediatric
+15,11-17 years,white,3,yes,private payer,Odenton,suburban,family practice
+15,11-17 years,other/unknown,2,no,military,Odenton,suburban,family practice
+15,11-17 years,white,3,yes,private payer,Odenton,suburban,pediatric
+15,11-17 years,black,2,no,private payer,Odenton,suburban,pediatric
+15,11-17 years,black,3,yes,private payer,Odenton,suburban,family practice
+15,11-17 years,black,3,yes,hospital based,Odenton,suburban,family practice
+15,11-17 years,white,3,no,military,Odenton,suburban,family practice
+15,11-17 years,other/unknown,3,no,private payer,Odenton,suburban,family practice
+15,11-17 years,Hispanic,3,yes,private payer,Odenton,suburban,family practice
+15,11-17 years,white,2,no,military,Odenton,suburban,pediatric
+15,11-17 years,black,2,no,medical assistance,Odenton,suburban,pediatric
+15,11-17 years,other/unknown,3,yes,hospital based,Odenton,suburban,pediatric
+15,11-17 years,black,2,no,military,Odenton,suburban,family practice
+15,11-17 years,black,1,no,private payer,Odenton,suburban,pediatric
+15,11-17 years,white,3,yes,military,Odenton,suburban,pediatric
+15,11-17 years,other/unknown,3,yes,private payer,Odenton,suburban,family practice
+15,11-17 years,white,3,yes,military,Odenton,suburban,pediatric
+15,11-17 years,white,3,yes,military,Odenton,suburban,family practice
+15,11-17 years,white,3,yes,military,Odenton,suburban,family practice
+15,11-17 years,other/unknown,3,yes,private payer,Odenton,suburban,family practice
+15,11-17 years,black,2,no,private payer,Odenton,suburban,pediatric
+15,11-17 years,black,1,no,private payer,Odenton,suburban,family practice
+15,11-17 years,white,2,no,private payer,Odenton,suburban,family practice
+15,11-17 years,black,3,yes,private payer,Odenton,suburban,pediatric
+15,11-17 years,white,2,no,private payer,White Marsh,suburban,OB-GYN
+15,11-17 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+15,11-17 years,black,1,no,hospital based,White Marsh,suburban,OB-GYN
+15,11-17 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+15,11-17 years,white,3,yes,military,Odenton,suburban,OB-GYN
+15,11-17 years,black,2,no,private payer,Odenton,suburban,OB-GYN
+15,11-17 years,black,3,yes,private payer,Odenton,suburban,OB-GYN
+15,11-17 years,black,1,no,private payer,Odenton,suburban,OB-GYN
+15,11-17 years,white,2,no,military,Odenton,suburban,OB-GYN
+15,11-17 years,white,2,no,private payer,Odenton,suburban,OB-GYN
+15,11-17 years,Hispanic,3,yes,private payer,Bayview,urban,pediatric
+15,11-17 years,white,2,no,private payer,Bayview,urban,pediatric
+15,11-17 years,black,1,no,private payer,Bayview,urban,pediatric
+15,11-17 years,white,2,no,private payer,Bayview,urban,pediatric
+15,11-17 years,white,1,no,private payer,Bayview,urban,pediatric
+15,11-17 years,black,2,no,medical assistance,Bayview,urban,pediatric
+15,11-17 years,black,2,no,medical assistance,Bayview,urban,pediatric
+15,11-17 years,white,1,no,private payer,Bayview,urban,pediatric
+15,11-17 years,white,3,yes,medical assistance,Bayview,urban,pediatric
+15,11-17 years,Hispanic,3,yes,private payer,Bayview,urban,pediatric
+15,11-17 years,white,3,no,private payer,Bayview,urban,pediatric
+15,11-17 years,black,2,no,medical assistance,Bayview,urban,pediatric
+15,11-17 years,white,3,yes,medical assistance,Bayview,urban,pediatric
+15,11-17 years,black,1,no,medical assistance,Bayview,urban,pediatric
+15,11-17 years,black,3,yes,medical assistance,Bayview,urban,pediatric
+15,11-17 years,Hispanic,2,no,medical assistance,Bayview,urban,pediatric
+15,11-17 years,other/unknown,2,no,medical assistance,Bayview,urban,pediatric
+15,11-17 years,black,2,no,medical assistance,Bayview,urban,pediatric
+15,11-17 years,black,2,no,medical assistance,Bayview,urban,pediatric
+15,11-17 years,white,2,no,private payer,Bayview,urban,pediatric
+15,11-17 years,white,3,yes,medical assistance,Bayview,urban,pediatric
+15,11-17 years,black,2,no,medical assistance,Bayview,urban,pediatric
+15,11-17 years,black,1,no,medical assistance,Bayview,urban,pediatric
+15,11-17 years,black,3,no,medical assistance,Bayview,urban,pediatric
+15,11-17 years,black,3,no,private payer,Bayview,urban,pediatric
+15,11-17 years,white,2,no,medical assistance,Bayview,urban,pediatric
+15,11-17 years,white,1,no,medical assistance,Bayview,urban,pediatric
+15,11-17 years,black,2,no,hospital based,Bayview,urban,pediatric
+15,11-17 years,black,2,no,medical assistance,Bayview,urban,pediatric
+15,11-17 years,white,3,yes,medical assistance,Bayview,urban,pediatric
+15,11-17 years,black,2,no,private payer,Bayview,urban,pediatric
+15,11-17 years,white,2,no,medical assistance,Bayview,urban,pediatric
+15,11-17 years,white,3,yes,medical assistance,Bayview,urban,pediatric
+15,11-17 years,white,1,no,medical assistance,Bayview,urban,pediatric
+15,11-17 years,black,3,yes,medical assistance,Bayview,urban,pediatric
+15,11-17 years,black,2,no,medical assistance,Bayview,urban,pediatric
+15,11-17 years,black,3,no,private payer,Bayview,urban,OB-GYN
+15,11-17 years,black,2,no,hospital based,Bayview,urban,OB-GYN
+15,11-17 years,white,1,no,medical assistance,Bayview,urban,OB-GYN
+15,11-17 years,black,1,no,medical assistance,Johns Hopkins Outpatient Center,urban,OB-GYN
+15,11-17 years,white,3,yes,medical assistance,Johns Hopkins Outpatient Center,urban,OB-GYN
+16,11-17 years,other/unknown,1,no,private payer,Odenton,suburban,pediatric
+16,11-17 years,black,1,no,medical assistance,Odenton,suburban,pediatric
+16,11-17 years,white,2,no,military,Odenton,suburban,pediatric
+16,11-17 years,black,3,yes,private payer,Odenton,suburban,pediatric
+16,11-17 years,black,3,yes,medical assistance,Odenton,suburban,pediatric
+16,11-17 years,white,3,yes,private payer,Odenton,suburban,pediatric
+16,11-17 years,black,3,yes,private payer,Odenton,suburban,pediatric
+16,11-17 years,white,3,yes,military,Odenton,suburban,pediatric
+16,11-17 years,white,3,yes,military,Odenton,suburban,pediatric
+16,11-17 years,black,3,yes,private payer,Odenton,suburban,pediatric
+16,11-17 years,white,3,yes,military,Odenton,suburban,family practice
+16,11-17 years,black,1,no,military,Odenton,suburban,pediatric
+16,11-17 years,black,1,no,military,Odenton,suburban,pediatric
+16,11-17 years,other/unknown,3,yes,military,Odenton,suburban,pediatric
+16,11-17 years,white,2,no,military,Odenton,suburban,pediatric
+16,11-17 years,other/unknown,3,yes,private payer,Odenton,suburban,pediatric
+16,11-17 years,white,1,no,private payer,Odenton,suburban,pediatric
+16,11-17 years,other/unknown,3,yes,military,Odenton,suburban,pediatric
+16,11-17 years,white,2,no,medical assistance,Odenton,suburban,pediatric
+16,11-17 years,black,2,no,private payer,Odenton,suburban,pediatric
+16,11-17 years,white,3,yes,private payer,Odenton,suburban,pediatric
+16,11-17 years,white,3,yes,military,Odenton,suburban,pediatric
+16,11-17 years,other/unknown,2,no,military,Odenton,suburban,family practice
+16,11-17 years,white,1,no,private payer,Odenton,suburban,pediatric
+16,11-17 years,other/unknown,3,no,private payer,Odenton,suburban,family practice
+16,11-17 years,other/unknown,3,yes,hospital based,Odenton,suburban,family practice
+16,11-17 years,other/unknown,3,yes,hospital based,Odenton,suburban,family practice
+16,11-17 years,black,2,no,medical assistance,Odenton,suburban,pediatric
+16,11-17 years,white,3,yes,military,Odenton,suburban,pediatric
+16,11-17 years,other/unknown,3,yes,military,Odenton,suburban,pediatric
+16,11-17 years,white,3,yes,private payer,Odenton,suburban,pediatric
+16,11-17 years,white,3,no,private payer,Odenton,suburban,pediatric
+16,11-17 years,other/unknown,3,yes,military,Odenton,suburban,family practice
+16,11-17 years,white,2,no,private payer,Odenton,suburban,OB-GYN
+16,11-17 years,white,2,no,private payer,Odenton,suburban,pediatric
+16,11-17 years,white,3,yes,private payer,Odenton,suburban,family practice
+16,11-17 years,white,2,no,military,Odenton,suburban,family practice
+16,11-17 years,black,3,yes,military,Odenton,suburban,pediatric
+16,11-17 years,other/unknown,1,no,private payer,Odenton,suburban,family practice
+16,11-17 years,white,3,yes,private payer,Odenton,suburban,pediatric
+16,11-17 years,white,3,yes,military,Odenton,suburban,family practice
+16,11-17 years,Hispanic,3,yes,private payer,Odenton,suburban,pediatric
+16,11-17 years,other/unknown,2,no,medical assistance,Odenton,suburban,pediatric
+16,11-17 years,white,2,no,private payer,Odenton,suburban,pediatric
+16,11-17 years,white,3,yes,military,Odenton,suburban,pediatric
+16,11-17 years,black,1,no,private payer,Odenton,suburban,family practice
+16,11-17 years,other/unknown,2,no,private payer,Odenton,suburban,pediatric
+16,11-17 years,white,3,no,private payer,Odenton,suburban,pediatric
+16,11-17 years,white,3,no,private payer,Odenton,suburban,pediatric
+16,11-17 years,black,2,no,military,Odenton,suburban,family practice
+16,11-17 years,black,3,yes,private payer,Odenton,suburban,pediatric
+16,11-17 years,white,3,yes,military,Odenton,suburban,pediatric
+16,11-17 years,black,3,yes,private payer,Odenton,suburban,family practice
+16,11-17 years,white,1,no,private payer,Odenton,suburban,pediatric
+16,11-17 years,black,3,no,medical assistance,Odenton,suburban,pediatric
+16,11-17 years,black,3,yes,private payer,Odenton,suburban,pediatric
+16,11-17 years,other/unknown,3,yes,military,Odenton,suburban,pediatric
+16,11-17 years,black,2,no,private payer,Odenton,suburban,family practice
+16,11-17 years,white,1,no,military,Odenton,suburban,pediatric
+16,11-17 years,white,2,no,medical assistance,Odenton,suburban,family practice
+16,11-17 years,white,2,no,military,Odenton,suburban,family practice
+16,11-17 years,other/unknown,3,no,military,Odenton,suburban,pediatric
+16,11-17 years,other/unknown,3,yes,private payer,Odenton,suburban,family practice
+16,11-17 years,white,3,yes,military,Odenton,suburban,family practice
+16,11-17 years,black,3,yes,private payer,White Marsh,suburban,OB-GYN
+16,11-17 years,white,2,no,private payer,White Marsh,suburban,OB-GYN
+16,11-17 years,white,2,no,private payer,White Marsh,suburban,OB-GYN
+16,11-17 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+16,11-17 years,white,1,no,hospital based,White Marsh,suburban,OB-GYN
+16,11-17 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+16,11-17 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+16,11-17 years,white,3,no,private payer,White Marsh,suburban,OB-GYN
+16,11-17 years,white,2,no,private payer,White Marsh,suburban,OB-GYN
+16,11-17 years,white,3,yes,hospital based,White Marsh,suburban,OB-GYN
+16,11-17 years,white,3,yes,hospital based,White Marsh,suburban,OB-GYN
+16,11-17 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+16,11-17 years,white,1,no,private payer,Odenton,suburban,OB-GYN
+16,11-17 years,white,3,yes,private payer,Odenton,suburban,OB-GYN
+16,11-17 years,white,1,no,military,Odenton,suburban,OB-GYN
+16,11-17 years,white,1,no,private payer,Odenton,suburban,OB-GYN
+16,11-17 years,white,2,no,private payer,Odenton,suburban,OB-GYN
+16,11-17 years,white,2,no,private payer,Odenton,suburban,OB-GYN
+16,11-17 years,white,1,no,military,Odenton,suburban,OB-GYN
+16,11-17 years,white,2,no,private payer,Odenton,suburban,OB-GYN
+16,11-17 years,white,2,no,medical assistance,Bayview,urban,pediatric
+16,11-17 years,black,2,no,medical assistance,Bayview,urban,pediatric
+16,11-17 years,black,3,yes,medical assistance,Bayview,urban,pediatric
+16,11-17 years,Hispanic,2,no,medical assistance,Bayview,urban,pediatric
+16,11-17 years,white,3,yes,medical assistance,Bayview,urban,pediatric
+16,11-17 years,black,2,no,private payer,Bayview,urban,pediatric
+16,11-17 years,black,2,no,medical assistance,Bayview,urban,pediatric
+16,11-17 years,white,1,no,private payer,Bayview,urban,pediatric
+16,11-17 years,black,1,no,medical assistance,Bayview,urban,pediatric
+16,11-17 years,black,2,no,medical assistance,Bayview,urban,pediatric
+16,11-17 years,Hispanic,1,no,medical assistance,Bayview,urban,pediatric
+16,11-17 years,white,2,no,private payer,Bayview,urban,pediatric
+16,11-17 years,black,1,no,private payer,Bayview,urban,pediatric
+16,11-17 years,black,3,yes,medical assistance,Bayview,urban,pediatric
+16,11-17 years,other/unknown,2,no,medical assistance,Bayview,urban,pediatric
+16,11-17 years,black,3,no,medical assistance,Bayview,urban,pediatric
+16,11-17 years,black,1,no,medical assistance,Bayview,urban,pediatric
+16,11-17 years,white,2,no,medical assistance,Bayview,urban,pediatric
+16,11-17 years,black,2,no,medical assistance,Bayview,urban,pediatric
+16,11-17 years,black,1,no,medical assistance,Bayview,urban,pediatric
+16,11-17 years,Hispanic,2,no,medical assistance,Bayview,urban,pediatric
+16,11-17 years,Hispanic,2,no,medical assistance,Bayview,urban,pediatric
+16,11-17 years,white,3,yes,medical assistance,Bayview,urban,pediatric
+16,11-17 years,black,2,no,medical assistance,Bayview,urban,pediatric
+16,11-17 years,white,2,no,military,Bayview,urban,pediatric
+16,11-17 years,black,1,no,medical assistance,Bayview,urban,pediatric
+16,11-17 years,white,2,no,medical assistance,Bayview,urban,pediatric
+16,11-17 years,black,1,no,medical assistance,Bayview,urban,pediatric
+16,11-17 years,white,2,no,medical assistance,Bayview,urban,pediatric
+16,11-17 years,white,1,no,private payer,Bayview,urban,pediatric
+16,11-17 years,Hispanic,2,no,private payer,Bayview,urban,pediatric
+16,11-17 years,white,2,no,private payer,Bayview,urban,pediatric
+16,11-17 years,white,1,no,medical assistance,Bayview,urban,pediatric
+16,11-17 years,Hispanic,2,no,medical assistance,Bayview,urban,pediatric
+16,11-17 years,Hispanic,2,no,medical assistance,Bayview,urban,pediatric
+16,11-17 years,white,3,yes,private payer,Bayview,urban,pediatric
+16,11-17 years,white,1,no,medical assistance,Bayview,urban,pediatric
+16,11-17 years,white,3,yes,military,Bayview,urban,pediatric
+16,11-17 years,black,3,yes,private payer,Bayview,urban,pediatric
+16,11-17 years,other/unknown,3,yes,medical assistance,Bayview,urban,pediatric
+16,11-17 years,black,2,no,medical assistance,Bayview,urban,pediatric
+16,11-17 years,white,3,yes,medical assistance,Bayview,urban,pediatric
+16,11-17 years,black,2,no,medical assistance,Bayview,urban,pediatric
+16,11-17 years,white,3,yes,private payer,Bayview,urban,pediatric
+16,11-17 years,white,3,yes,private payer,Bayview,urban,OB-GYN
+16,11-17 years,white,3,yes,medical assistance,Bayview,urban,OB-GYN
+16,11-17 years,white,3,yes,medical assistance,Bayview,urban,OB-GYN
+16,11-17 years,white,1,no,private payer,Johns Hopkins Outpatient Center,urban,OB-GYN
+16,11-17 years,black,3,yes,medical assistance,Johns Hopkins Outpatient Center,urban,OB-GYN
+16,11-17 years,white,3,yes,medical assistance,Johns Hopkins Outpatient Center,urban,OB-GYN
+17,11-17 years,other/unknown,2,no,military,Odenton,suburban,family practice
+17,11-17 years,white,1,no,military,Odenton,suburban,family practice
+17,11-17 years,black,2,no,private payer,Odenton,suburban,pediatric
+17,11-17 years,black,2,no,military,Odenton,suburban,pediatric
+17,11-17 years,white,3,yes,military,Odenton,suburban,family practice
+17,11-17 years,black,1,no,military,Odenton,suburban,pediatric
+17,11-17 years,other/unknown,1,no,military,Odenton,suburban,family practice
+17,11-17 years,black,1,no,military,Odenton,suburban,family practice
+17,11-17 years,white,3,yes,military,Odenton,suburban,family practice
+17,11-17 years,black,3,yes,private payer,Odenton,suburban,family practice
+17,11-17 years,other/unknown,2,no,private payer,Odenton,suburban,family practice
+17,11-17 years,white,2,no,military,Odenton,suburban,family practice
+17,11-17 years,black,3,yes,private payer,Odenton,suburban,pediatric
+17,11-17 years,white,3,yes,private payer,Odenton,suburban,pediatric
+17,11-17 years,white,3,yes,private payer,Odenton,suburban,pediatric
+17,11-17 years,other/unknown,1,no,private payer,Odenton,suburban,pediatric
+17,11-17 years,white,3,yes,military,Odenton,suburban,pediatric
+17,11-17 years,black,1,no,private payer,Odenton,suburban,family practice
+17,11-17 years,black,1,no,medical assistance,Odenton,suburban,family practice
+17,11-17 years,other/unknown,1,no,private payer,Odenton,suburban,pediatric
+17,11-17 years,black,1,no,private payer,Odenton,suburban,pediatric
+17,11-17 years,other/unknown,2,no,military,Odenton,suburban,family practice
+17,11-17 years,black,3,yes,military,Odenton,suburban,pediatric
+17,11-17 years,black,2,no,private payer,Odenton,suburban,pediatric
+17,11-17 years,other/unknown,3,yes,military,Odenton,suburban,family practice
+17,11-17 years,white,1,no,private payer,Odenton,suburban,pediatric
+17,11-17 years,other/unknown,1,no,military,Odenton,suburban,family practice
+17,11-17 years,white,2,no,military,Odenton,suburban,pediatric
+17,11-17 years,black,3,yes,private payer,Odenton,suburban,pediatric
+17,11-17 years,white,2,no,military,Odenton,suburban,family practice
+17,11-17 years,other/unknown,1,no,military,Odenton,suburban,family practice
+17,11-17 years,white,1,no,private payer,Odenton,suburban,pediatric
+17,11-17 years,other/unknown,2,no,military,Odenton,suburban,pediatric
+17,11-17 years,other/unknown,1,no,military,Odenton,suburban,family practice
+17,11-17 years,other/unknown,1,no,private payer,Odenton,suburban,family practice
+17,11-17 years,white,3,yes,hospital based,Odenton,suburban,pediatric
+17,11-17 years,white,2,no,private payer,Odenton,suburban,pediatric
+17,11-17 years,white,3,no,private payer,Odenton,suburban,pediatric
+17,11-17 years,white,1,no,military,Odenton,suburban,family practice
+17,11-17 years,white,3,yes,private payer,Odenton,suburban,family practice
+17,11-17 years,other/unknown,3,yes,military,Odenton,suburban,pediatric
+17,11-17 years,other/unknown,3,yes,hospital based,Odenton,suburban,pediatric
+17,11-17 years,black,2,no,private payer,Odenton,suburban,family practice
+17,11-17 years,other/unknown,3,yes,military,Odenton,suburban,pediatric
+17,11-17 years,other/unknown,3,yes,military,Odenton,suburban,pediatric
+17,11-17 years,black,1,no,military,Odenton,suburban,pediatric
+17,11-17 years,black,2,no,military,Odenton,suburban,family practice
+17,11-17 years,other/unknown,2,no,military,Odenton,suburban,pediatric
+17,11-17 years,white,2,no,military,Odenton,suburban,pediatric
+17,11-17 years,black,1,no,medical assistance,Odenton,suburban,pediatric
+17,11-17 years,white,1,no,private payer,Odenton,suburban,pediatric
+17,11-17 years,black,1,no,medical assistance,Odenton,suburban,pediatric
+17,11-17 years,black,3,yes,military,Odenton,suburban,family practice
+17,11-17 years,black,2,no,military,Odenton,suburban,pediatric
+17,11-17 years,black,1,no,military,Odenton,suburban,family practice
+17,11-17 years,white,2,no,military,Odenton,suburban,family practice
+17,11-17 years,other/unknown,3,yes,military,Odenton,suburban,pediatric
+17,11-17 years,black,3,yes,medical assistance,Odenton,suburban,pediatric
+17,11-17 years,white,3,yes,private payer,Odenton,suburban,family practice
+17,11-17 years,white,1,no,military,Odenton,suburban,pediatric
+17,11-17 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+17,11-17 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+17,11-17 years,white,2,no,private payer,White Marsh,suburban,OB-GYN
+17,11-17 years,white,1,no,medical assistance,White Marsh,suburban,OB-GYN
+17,11-17 years,white,2,no,private payer,White Marsh,suburban,OB-GYN
+17,11-17 years,white,3,yes,hospital based,White Marsh,suburban,OB-GYN
+17,11-17 years,white,3,no,private payer,White Marsh,suburban,OB-GYN
+17,11-17 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+17,11-17 years,white,3,yes,hospital based,White Marsh,suburban,OB-GYN
+17,11-17 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+17,11-17 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+17,11-17 years,black,1,no,military,Odenton,suburban,OB-GYN
+17,11-17 years,white,2,no,private payer,Odenton,suburban,OB-GYN
+17,11-17 years,Hispanic,3,yes,private payer,Odenton,suburban,OB-GYN
+17,11-17 years,white,1,no,private payer,Odenton,suburban,OB-GYN
+17,11-17 years,white,3,yes,private payer,Odenton,suburban,OB-GYN
+17,11-17 years,white,3,yes,private payer,Odenton,suburban,OB-GYN
+17,11-17 years,white,3,yes,private payer,Odenton,suburban,OB-GYN
+17,11-17 years,white,3,no,military,Odenton,suburban,OB-GYN
+17,11-17 years,white,1,no,private payer,Odenton,suburban,OB-GYN
+17,11-17 years,white,3,yes,military,Odenton,suburban,OB-GYN
+17,11-17 years,black,2,no,medical assistance,Bayview,urban,pediatric
+17,11-17 years,white,2,no,private payer,Bayview,urban,pediatric
+17,11-17 years,white,2,no,private payer,Bayview,urban,pediatric
+17,11-17 years,white,3,yes,medical assistance,Bayview,urban,pediatric
+17,11-17 years,black,2,no,medical assistance,Bayview,urban,pediatric
+17,11-17 years,black,2,no,hospital based,Bayview,urban,pediatric
+17,11-17 years,black,1,no,private payer,Bayview,urban,pediatric
+17,11-17 years,black,1,no,private payer,Bayview,urban,pediatric
+17,11-17 years,white,1,no,medical assistance,Bayview,urban,pediatric
+17,11-17 years,black,1,no,medical assistance,Bayview,urban,pediatric
+17,11-17 years,white,1,no,hospital based,Bayview,urban,pediatric
+17,11-17 years,black,2,no,medical assistance,Bayview,urban,pediatric
+17,11-17 years,black,1,no,medical assistance,Bayview,urban,pediatric
+17,11-17 years,Hispanic,2,no,medical assistance,Bayview,urban,pediatric
+17,11-17 years,white,2,no,medical assistance,Bayview,urban,pediatric
+17,11-17 years,other/unknown,3,yes,medical assistance,Bayview,urban,pediatric
+17,11-17 years,black,3,no,medical assistance,Bayview,urban,pediatric
+17,11-17 years,black,3,no,hospital based,Bayview,urban,pediatric
+17,11-17 years,white,2,no,hospital based,Bayview,urban,pediatric
+17,11-17 years,white,3,no,hospital based,Bayview,urban,pediatric
+17,11-17 years,white,2,no,hospital based,Bayview,urban,pediatric
+17,11-17 years,black,2,no,medical assistance,Bayview,urban,pediatric
+17,11-17 years,black,1,no,medical assistance,Bayview,urban,pediatric
+17,11-17 years,black,1,no,medical assistance,Bayview,urban,pediatric
+17,11-17 years,white,1,no,hospital based,Bayview,urban,pediatric
+17,11-17 years,Hispanic,2,no,medical assistance,Bayview,urban,pediatric
+17,11-17 years,white,1,no,private payer,Bayview,urban,pediatric
+17,11-17 years,white,3,no,medical assistance,Bayview,urban,pediatric
+17,11-17 years,black,2,no,private payer,Bayview,urban,pediatric
+17,11-17 years,other/unknown,2,no,private payer,Bayview,urban,pediatric
+17,11-17 years,black,1,no,private payer,Bayview,urban,pediatric
+17,11-17 years,white,1,no,medical assistance,Bayview,urban,pediatric
+17,11-17 years,white,1,no,medical assistance,Bayview,urban,pediatric
+17,11-17 years,white,1,no,medical assistance,Bayview,urban,pediatric
+17,11-17 years,black,3,yes,private payer,Bayview,urban,pediatric
+17,11-17 years,black,2,no,private payer,Bayview,urban,pediatric
+17,11-17 years,black,2,no,hospital based,Bayview,urban,pediatric
+17,11-17 years,black,3,yes,medical assistance,Bayview,urban,pediatric
+17,11-17 years,black,2,no,private payer,Bayview,urban,OB-GYN
+17,11-17 years,black,3,no,medical assistance,Bayview,urban,OB-GYN
+17,11-17 years,white,3,yes,hospital based,Bayview,urban,OB-GYN
+17,11-17 years,black,1,no,private payer,Bayview,urban,OB-GYN
+17,11-17 years,white,2,no,medical assistance,Bayview,urban,OB-GYN
+17,11-17 years,black,3,yes,hospital based,Bayview,urban,OB-GYN
+17,11-17 years,black,2,no,private payer,Johns Hopkins Outpatient Center,urban,OB-GYN
+17,11-17 years,black,1,no,medical assistance,Johns Hopkins Outpatient Center,urban,OB-GYN
+17,11-17 years,black,1,no,medical assistance,Johns Hopkins Outpatient Center,urban,OB-GYN
+18,18-26 years,white,3,yes,hospital based,Odenton,suburban,family practice
+18,18-26 years,other/unknown,1,no,military,Odenton,suburban,pediatric
+18,18-26 years,other/unknown,2,no,military,Odenton,suburban,family practice
+18,18-26 years,white,2,no,military,Odenton,suburban,family practice
+18,18-26 years,other/unknown,1,no,private payer,Odenton,suburban,family practice
+18,18-26 years,black,1,no,military,Odenton,suburban,family practice
+18,18-26 years,black,3,yes,private payer,Odenton,suburban,family practice
+18,18-26 years,white,2,no,military,Odenton,suburban,pediatric
+18,18-26 years,white,3,yes,military,Odenton,suburban,pediatric
+18,18-26 years,white,1,no,private payer,Odenton,suburban,family practice
+18,18-26 years,white,2,no,military,Odenton,suburban,pediatric
+18,18-26 years,black,3,no,private payer,Odenton,suburban,pediatric
+18,18-26 years,white,3,yes,military,Odenton,suburban,family practice
+18,18-26 years,other/unknown,2,no,military,Odenton,suburban,pediatric
+18,18-26 years,other/unknown,1,no,private payer,Odenton,suburban,family practice
+18,18-26 years,white,3,yes,military,Odenton,suburban,family practice
+18,18-26 years,black,2,no,medical assistance,Odenton,suburban,family practice
+18,18-26 years,black,2,no,military,Odenton,suburban,family practice
+18,18-26 years,white,3,yes,private payer,Odenton,suburban,pediatric
+18,18-26 years,white,3,yes,private payer,Odenton,suburban,pediatric
+18,18-26 years,white,3,yes,military,Odenton,suburban,family practice
+18,18-26 years,white,3,yes,military,Odenton,suburban,pediatric
+18,18-26 years,white,2,no,private payer,Odenton,suburban,pediatric
+18,18-26 years,black,3,yes,military,Odenton,suburban,family practice
+18,18-26 years,other/unknown,2,no,military,Odenton,suburban,family practice
+18,18-26 years,white,1,no,military,Odenton,suburban,pediatric
+18,18-26 years,white,3,yes,private payer,Odenton,suburban,family practice
+18,18-26 years,white,1,no,military,Odenton,suburban,family practice
+18,18-26 years,black,3,yes,hospital based,Odenton,suburban,family practice
+18,18-26 years,black,2,no,private payer,Odenton,suburban,family practice
+18,18-26 years,other/unknown,1,no,military,Odenton,suburban,family practice
+18,18-26 years,Hispanic,1,no,military,Odenton,suburban,family practice
+18,18-26 years,Hispanic,3,no,private payer,Odenton,suburban,family practice
+18,18-26 years,white,2,no,military,Odenton,suburban,family practice
+18,18-26 years,white,3,no,military,Odenton,suburban,family practice
+18,18-26 years,white,3,yes,military,Odenton,suburban,family practice
+18,18-26 years,other/unknown,2,no,military,Odenton,suburban,pediatric
+18,18-26 years,white,2,no,military,Odenton,suburban,family practice
+18,18-26 years,white,3,no,military,Odenton,suburban,family practice
+18,18-26 years,white,3,yes,military,Odenton,suburban,family practice
+18,18-26 years,black,1,no,medical assistance,Odenton,suburban,family practice
+18,18-26 years,black,2,no,private payer,Odenton,suburban,pediatric
+18,18-26 years,black,1,no,private payer,Odenton,suburban,family practice
+18,18-26 years,black,2,no,private payer,Odenton,suburban,family practice
+18,18-26 years,white,1,no,military,Odenton,suburban,family practice
+18,18-26 years,black,3,yes,military,Odenton,suburban,family practice
+18,18-26 years,white,2,no,private payer,White Marsh,suburban,OB-GYN
+18,18-26 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+18,18-26 years,white,2,no,private payer,White Marsh,suburban,OB-GYN
+18,18-26 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+18,18-26 years,other/unknown,3,yes,private payer,White Marsh,suburban,OB-GYN
+18,18-26 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+18,18-26 years,white,2,no,private payer,White Marsh,suburban,OB-GYN
+18,18-26 years,white,1,no,private payer,White Marsh,suburban,OB-GYN
+18,18-26 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+18,18-26 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+18,18-26 years,white,3,yes,hospital based,White Marsh,suburban,OB-GYN
+18,18-26 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+18,18-26 years,white,3,yes,hospital based,White Marsh,suburban,OB-GYN
+18,18-26 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+18,18-26 years,black,2,no,medical assistance,White Marsh,suburban,OB-GYN
+18,18-26 years,white,1,no,private payer,Odenton,suburban,OB-GYN
+18,18-26 years,black,1,no,private payer,Odenton,suburban,OB-GYN
+18,18-26 years,white,2,no,military,Odenton,suburban,OB-GYN
+18,18-26 years,white,3,yes,private payer,Odenton,suburban,OB-GYN
+18,18-26 years,white,2,no,private payer,Odenton,suburban,OB-GYN
+18,18-26 years,white,1,no,military,Odenton,suburban,OB-GYN
+18,18-26 years,white,3,yes,private payer,Odenton,suburban,OB-GYN
+18,18-26 years,other/unknown,1,no,military,Odenton,suburban,OB-GYN
+18,18-26 years,white,2,no,private payer,Odenton,suburban,OB-GYN
+18,18-26 years,white,1,no,private payer,Bayview,urban,pediatric
+18,18-26 years,black,1,no,private payer,Bayview,urban,pediatric
+18,18-26 years,black,1,no,medical assistance,Bayview,urban,pediatric
+18,18-26 years,black,2,no,private payer,Bayview,urban,pediatric
+18,18-26 years,white,1,no,hospital based,Bayview,urban,pediatric
+18,18-26 years,black,1,no,medical assistance,Bayview,urban,pediatric
+18,18-26 years,white,3,yes,military,Bayview,urban,pediatric
+18,18-26 years,black,3,no,medical assistance,Bayview,urban,pediatric
+18,18-26 years,other/unknown,1,no,medical assistance,Bayview,urban,pediatric
+18,18-26 years,black,1,no,private payer,Bayview,urban,pediatric
+18,18-26 years,white,1,no,medical assistance,Bayview,urban,pediatric
+18,18-26 years,white,1,no,medical assistance,Bayview,urban,pediatric
+18,18-26 years,white,2,no,medical assistance,Bayview,urban,pediatric
+18,18-26 years,black,1,no,private payer,Bayview,urban,pediatric
+18,18-26 years,black,2,no,private payer,Bayview,urban,pediatric
+18,18-26 years,white,1,no,private payer,Bayview,urban,pediatric
+18,18-26 years,white,1,no,private payer,Bayview,urban,pediatric
+18,18-26 years,white,2,no,private payer,Bayview,urban,pediatric
+18,18-26 years,white,1,no,medical assistance,Bayview,urban,pediatric
+18,18-26 years,white,2,no,medical assistance,Bayview,urban,pediatric
+18,18-26 years,black,1,no,medical assistance,Bayview,urban,pediatric
+18,18-26 years,black,1,no,private payer,Bayview,urban,pediatric
+18,18-26 years,black,1,no,medical assistance,Bayview,urban,pediatric
+18,18-26 years,black,3,yes,medical assistance,Bayview,urban,pediatric
+18,18-26 years,white,1,no,medical assistance,Bayview,urban,OB-GYN
+18,18-26 years,white,2,no,private payer,Bayview,urban,OB-GYN
+18,18-26 years,black,2,no,private payer,Johns Hopkins Outpatient Center,urban,OB-GYN
+18,18-26 years,black,1,no,medical assistance,Johns Hopkins Outpatient Center,urban,OB-GYN
+18,18-26 years,white,1,no,medical assistance,Johns Hopkins Outpatient Center,urban,OB-GYN
+19,18-26 years,white,1,no,military,Odenton,suburban,family practice
+19,18-26 years,black,3,yes,military,Odenton,suburban,family practice
+19,18-26 years,black,3,no,military,Odenton,suburban,family practice
+19,18-26 years,black,1,no,private payer,Odenton,suburban,pediatric
+19,18-26 years,white,2,no,private payer,Odenton,suburban,family practice
+19,18-26 years,white,1,no,private payer,Odenton,suburban,family practice
+19,18-26 years,white,3,yes,medical assistance,Odenton,suburban,family practice
+19,18-26 years,white,1,no,military,Odenton,suburban,pediatric
+19,18-26 years,white,2,no,military,Odenton,suburban,family practice
+19,18-26 years,white,2,no,private payer,Odenton,suburban,family practice
+19,18-26 years,other/unknown,2,no,military,Odenton,suburban,family practice
+19,18-26 years,black,2,no,private payer,Odenton,suburban,family practice
+19,18-26 years,white,2,no,military,Odenton,suburban,family practice
+19,18-26 years,white,1,no,military,Odenton,suburban,family practice
+19,18-26 years,black,3,yes,military,Odenton,suburban,family practice
+19,18-26 years,white,2,no,private payer,Odenton,suburban,family practice
+19,18-26 years,white,2,no,private payer,Odenton,suburban,family practice
+19,18-26 years,white,3,yes,private payer,Odenton,suburban,family practice
+19,18-26 years,other/unknown,2,no,private payer,Odenton,suburban,family practice
+19,18-26 years,white,1,no,military,Odenton,suburban,family practice
+19,18-26 years,white,2,no,military,Odenton,suburban,family practice
+19,18-26 years,white,2,no,military,Odenton,suburban,family practice
+19,18-26 years,other/unknown,2,no,private payer,Odenton,suburban,family practice
+19,18-26 years,white,3,yes,military,Odenton,suburban,family practice
+19,18-26 years,other/unknown,3,yes,military,Odenton,suburban,family practice
+19,18-26 years,black,1,no,private payer,Odenton,suburban,family practice
+19,18-26 years,white,1,no,military,Odenton,suburban,family practice
+19,18-26 years,white,3,yes,military,Odenton,suburban,family practice
+19,18-26 years,black,1,no,military,Odenton,suburban,family practice
+19,18-26 years,black,3,yes,military,Odenton,suburban,family practice
+19,18-26 years,white,3,yes,military,Odenton,suburban,family practice
+19,18-26 years,black,2,no,private payer,Odenton,suburban,family practice
+19,18-26 years,other/unknown,1,no,military,Odenton,suburban,family practice
+19,18-26 years,white,1,no,military,Odenton,suburban,family practice
+19,18-26 years,white,3,no,military,Odenton,suburban,family practice
+19,18-26 years,black,1,no,hospital based,Odenton,suburban,family practice
+19,18-26 years,black,1,no,hospital based,Odenton,suburban,family practice
+19,18-26 years,black,2,no,military,Odenton,suburban,family practice
+19,18-26 years,white,2,no,military,Odenton,suburban,family practice
+19,18-26 years,other/unknown,1,no,military,Odenton,suburban,family practice
+19,18-26 years,white,1,no,private payer,Odenton,suburban,family practice
+19,18-26 years,white,3,yes,military,Odenton,suburban,family practice
+19,18-26 years,black,1,no,military,Odenton,suburban,family practice
+19,18-26 years,white,1,no,military,Odenton,suburban,family practice
+19,18-26 years,other/unknown,3,yes,private payer,Odenton,suburban,family practice
+19,18-26 years,black,3,yes,medical assistance,Odenton,suburban,family practice
+19,18-26 years,black,2,no,hospital based,Odenton,suburban,family practice
+19,18-26 years,Hispanic,3,yes,private payer,White Marsh,suburban,OB-GYN
+19,18-26 years,white,2,no,private payer,White Marsh,suburban,OB-GYN
+19,18-26 years,white,1,no,private payer,White Marsh,suburban,OB-GYN
+19,18-26 years,black,3,yes,military,White Marsh,suburban,OB-GYN
+19,18-26 years,white,1,no,medical assistance,White Marsh,suburban,OB-GYN
+19,18-26 years,white,3,no,private payer,White Marsh,suburban,OB-GYN
+19,18-26 years,black,2,no,hospital based,White Marsh,suburban,OB-GYN
+19,18-26 years,white,1,no,private payer,White Marsh,suburban,OB-GYN
+19,18-26 years,black,2,no,private payer,White Marsh,suburban,OB-GYN
+19,18-26 years,black,3,yes,private payer,White Marsh,suburban,OB-GYN
+19,18-26 years,white,2,no,private payer,White Marsh,suburban,OB-GYN
+19,18-26 years,black,3,yes,private payer,White Marsh,suburban,OB-GYN
+19,18-26 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+19,18-26 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+19,18-26 years,black,1,no,medical assistance,White Marsh,suburban,OB-GYN
+19,18-26 years,white,2,no,private payer,White Marsh,suburban,OB-GYN
+19,18-26 years,white,1,no,private payer,White Marsh,suburban,OB-GYN
+19,18-26 years,Hispanic,1,no,private payer,White Marsh,suburban,OB-GYN
+19,18-26 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+19,18-26 years,black,1,no,private payer,White Marsh,suburban,OB-GYN
+19,18-26 years,white,3,no,military,Odenton,suburban,OB-GYN
+19,18-26 years,white,1,no,military,Odenton,suburban,OB-GYN
+19,18-26 years,white,2,no,military,Odenton,suburban,OB-GYN
+19,18-26 years,other/unknown,1,no,private payer,Odenton,suburban,OB-GYN
+19,18-26 years,white,1,no,private payer,Odenton,suburban,OB-GYN
+19,18-26 years,black,1,no,private payer,Odenton,suburban,OB-GYN
+19,18-26 years,black,2,no,military,Odenton,suburban,OB-GYN
+19,18-26 years,white,1,no,private payer,Odenton,suburban,OB-GYN
+19,18-26 years,white,3,yes,private payer,Odenton,suburban,OB-GYN
+19,18-26 years,white,2,no,military,Odenton,suburban,OB-GYN
+19,18-26 years,white,2,no,private payer,Odenton,suburban,OB-GYN
+19,18-26 years,white,1,no,military,Odenton,suburban,OB-GYN
+19,18-26 years,Hispanic,1,no,military,Odenton,suburban,OB-GYN
+19,18-26 years,black,3,no,private payer,Odenton,suburban,OB-GYN
+19,18-26 years,white,3,yes,military,Odenton,suburban,OB-GYN
+19,18-26 years,black,2,no,hospital based,Bayview,urban,pediatric
+19,18-26 years,white,1,no,medical assistance,Bayview,urban,pediatric
+19,18-26 years,black,1,no,medical assistance,Bayview,urban,pediatric
+19,18-26 years,white,1,no,private payer,Bayview,urban,pediatric
+19,18-26 years,black,1,no,medical assistance,Bayview,urban,pediatric
+19,18-26 years,other/unknown,2,no,medical assistance,Bayview,urban,pediatric
+19,18-26 years,black,1,no,private payer,Bayview,urban,pediatric
+19,18-26 years,black,1,no,medical assistance,Bayview,urban,pediatric
+19,18-26 years,white,2,no,medical assistance,Bayview,urban,pediatric
+19,18-26 years,white,1,no,private payer,Bayview,urban,pediatric
+19,18-26 years,white,1,no,medical assistance,Bayview,urban,pediatric
+19,18-26 years,black,1,no,private payer,Bayview,urban,pediatric
+19,18-26 years,white,1,no,medical assistance,Bayview,urban,pediatric
+19,18-26 years,white,3,no,medical assistance,Bayview,urban,pediatric
+19,18-26 years,white,3,yes,private payer,Bayview,urban,OB-GYN
+19,18-26 years,white,3,yes,medical assistance,Bayview,urban,OB-GYN
+19,18-26 years,black,3,yes,hospital based,Bayview,urban,OB-GYN
+19,18-26 years,black,1,no,medical assistance,Bayview,urban,OB-GYN
+19,18-26 years,black,1,no,private payer,Johns Hopkins Outpatient Center,urban,OB-GYN
+19,18-26 years,black,1,no,medical assistance,Johns Hopkins Outpatient Center,urban,OB-GYN
+19,18-26 years,black,1,no,medical assistance,Johns Hopkins Outpatient Center,urban,OB-GYN
+19,18-26 years,black,3,yes,medical assistance,Johns Hopkins Outpatient Center,urban,OB-GYN
+19,18-26 years,black,2,no,medical assistance,Johns Hopkins Outpatient Center,urban,OB-GYN
+20,18-26 years,white,1,no,private payer,Odenton,suburban,family practice
+20,18-26 years,other/unknown,2,no,military,Odenton,suburban,family practice
+20,18-26 years,black,1,no,private payer,Odenton,suburban,family practice
+20,18-26 years,white,1,no,private payer,Odenton,suburban,family practice
+20,18-26 years,other/unknown,3,yes,military,Odenton,suburban,family practice
+20,18-26 years,white,3,no,military,Odenton,suburban,family practice
+20,18-26 years,black,2,no,private payer,Odenton,suburban,family practice
+20,18-26 years,black,2,no,private payer,Odenton,suburban,family practice
+20,18-26 years,white,3,yes,military,Odenton,suburban,family practice
+20,18-26 years,other/unknown,1,no,private payer,Odenton,suburban,family practice
+20,18-26 years,white,3,yes,private payer,Odenton,suburban,family practice
+20,18-26 years,white,2,no,military,Odenton,suburban,family practice
+20,18-26 years,white,2,no,military,Odenton,suburban,family practice
+20,18-26 years,white,2,no,military,Odenton,suburban,family practice
+20,18-26 years,other/unknown,1,no,military,Odenton,suburban,family practice
+20,18-26 years,black,1,no,private payer,Odenton,suburban,family practice
+20,18-26 years,other/unknown,3,yes,military,Odenton,suburban,family practice
+20,18-26 years,black,2,no,private payer,Odenton,suburban,family practice
+20,18-26 years,Hispanic,2,no,military,Odenton,suburban,family practice
+20,18-26 years,white,2,no,military,Odenton,suburban,pediatric
+20,18-26 years,black,2,no,private payer,Odenton,suburban,family practice
+20,18-26 years,white,2,no,military,Odenton,suburban,family practice
+20,18-26 years,black,1,no,private payer,Odenton,suburban,family practice
+20,18-26 years,white,2,no,private payer,Odenton,suburban,family practice
+20,18-26 years,white,1,no,private payer,Odenton,suburban,family practice
+20,18-26 years,other/unknown,1,no,private payer,Odenton,suburban,family practice
+20,18-26 years,white,1,no,military,Odenton,suburban,family practice
+20,18-26 years,black,2,no,private payer,Odenton,suburban,family practice
+20,18-26 years,black,3,yes,private payer,Odenton,suburban,family practice
+20,18-26 years,white,3,yes,military,Odenton,suburban,family practice
+20,18-26 years,black,1,no,private payer,Odenton,suburban,family practice
+20,18-26 years,white,3,yes,military,Odenton,suburban,family practice
+20,18-26 years,black,2,no,private payer,Odenton,suburban,pediatric
+20,18-26 years,black,2,no,military,Odenton,suburban,family practice
+20,18-26 years,white,2,no,private payer,Odenton,suburban,family practice
+20,18-26 years,other/unknown,2,no,private payer,Odenton,suburban,family practice
+20,18-26 years,black,1,no,private payer,Odenton,suburban,family practice
+20,18-26 years,white,2,no,military,Odenton,suburban,family practice
+20,18-26 years,white,1,no,hospital based,White Marsh,suburban,OB-GYN
+20,18-26 years,white,2,no,private payer,White Marsh,suburban,OB-GYN
+20,18-26 years,black,2,no,private payer,White Marsh,suburban,OB-GYN
+20,18-26 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+20,18-26 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+20,18-26 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+20,18-26 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+20,18-26 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+20,18-26 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+20,18-26 years,black,1,no,hospital based,White Marsh,suburban,OB-GYN
+20,18-26 years,black,2,no,private payer,White Marsh,suburban,OB-GYN
+20,18-26 years,black,1,no,medical assistance,White Marsh,suburban,OB-GYN
+20,18-26 years,white,1,no,private payer,White Marsh,suburban,OB-GYN
+20,18-26 years,white,1,no,private payer,White Marsh,suburban,OB-GYN
+20,18-26 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+20,18-26 years,white,1,no,private payer,Odenton,suburban,OB-GYN
+20,18-26 years,black,1,no,private payer,Odenton,suburban,OB-GYN
+20,18-26 years,black,3,yes,private payer,Odenton,suburban,OB-GYN
+20,18-26 years,other/unknown,3,yes,military,Odenton,suburban,OB-GYN
+20,18-26 years,black,1,no,military,Odenton,suburban,OB-GYN
+20,18-26 years,white,2,no,private payer,Odenton,suburban,OB-GYN
+20,18-26 years,white,2,no,military,Odenton,suburban,OB-GYN
+20,18-26 years,white,3,yes,private payer,Odenton,suburban,OB-GYN
+20,18-26 years,other/unknown,2,no,military,Odenton,suburban,OB-GYN
+20,18-26 years,black,1,no,private payer,Odenton,suburban,OB-GYN
+20,18-26 years,white,2,no,military,Odenton,suburban,OB-GYN
+20,18-26 years,white,3,yes,private payer,Odenton,suburban,OB-GYN
+20,18-26 years,black,2,no,private payer,Odenton,suburban,OB-GYN
+20,18-26 years,black,3,yes,private payer,Odenton,suburban,OB-GYN
+20,18-26 years,black,2,no,private payer,Odenton,suburban,OB-GYN
+20,18-26 years,black,3,no,military,Odenton,suburban,OB-GYN
+20,18-26 years,black,3,yes,private payer,Odenton,suburban,OB-GYN
+20,18-26 years,white,3,yes,private payer,Odenton,suburban,OB-GYN
+20,18-26 years,black,2,no,military,Odenton,suburban,OB-GYN
+20,18-26 years,white,1,no,private payer,Odenton,suburban,OB-GYN
+20,18-26 years,black,2,no,private payer,Bayview,urban,pediatric
+20,18-26 years,white,1,no,medical assistance,Bayview,urban,pediatric
+20,18-26 years,white,2,no,private payer,Bayview,urban,pediatric
+20,18-26 years,white,3,yes,private payer,Bayview,urban,pediatric
+20,18-26 years,Hispanic,2,no,private payer,Bayview,urban,pediatric
+20,18-26 years,black,1,no,medical assistance,Bayview,urban,OB-GYN
+20,18-26 years,black,3,yes,private payer,Bayview,urban,OB-GYN
+20,18-26 years,black,1,no,medical assistance,Johns Hopkins Outpatient Center,urban,OB-GYN
+20,18-26 years,black,1,no,private payer,Johns Hopkins Outpatient Center,urban,OB-GYN
+20,18-26 years,black,1,no,medical assistance,Johns Hopkins Outpatient Center,urban,OB-GYN
+20,18-26 years,black,2,no,medical assistance,Johns Hopkins Outpatient Center,urban,OB-GYN
+20,18-26 years,black,1,no,private payer,Johns Hopkins Outpatient Center,urban,OB-GYN
+20,18-26 years,other/unknown,1,no,medical assistance,Johns Hopkins Outpatient Center,urban,OB-GYN
+20,18-26 years,white,1,no,medical assistance,Johns Hopkins Outpatient Center,urban,OB-GYN
+20,18-26 years,black,1,no,private payer,Johns Hopkins Outpatient Center,urban,OB-GYN
+20,18-26 years,other/unknown,3,yes,private payer,Johns Hopkins Outpatient Center,urban,OB-GYN
+20,18-26 years,black,1,no,medical assistance,Johns Hopkins Outpatient Center,urban,OB-GYN
+20,18-26 years,black,2,no,private payer,Johns Hopkins Outpatient Center,urban,OB-GYN
+20,18-26 years,black,1,no,medical assistance,Johns Hopkins Outpatient Center,urban,OB-GYN
+21,18-26 years,white,3,yes,military,Odenton,suburban,family practice
+21,18-26 years,white,3,yes,military,Odenton,suburban,family practice
+21,18-26 years,black,1,no,military,Odenton,suburban,family practice
+21,18-26 years,black,1,no,military,Odenton,suburban,family practice
+21,18-26 years,white,3,yes,military,Odenton,suburban,family practice
+21,18-26 years,black,2,no,private payer,Odenton,suburban,family practice
+21,18-26 years,black,2,no,private payer,Odenton,suburban,family practice
+21,18-26 years,Hispanic,1,no,private payer,Odenton,suburban,family practice
+21,18-26 years,white,3,yes,private payer,Odenton,suburban,family practice
+21,18-26 years,white,1,no,military,Odenton,suburban,family practice
+21,18-26 years,other/unknown,1,no,private payer,Odenton,suburban,family practice
+21,18-26 years,white,2,no,military,Odenton,suburban,family practice
+21,18-26 years,white,2,no,private payer,Odenton,suburban,family practice
+21,18-26 years,other/unknown,1,no,private payer,Odenton,suburban,family practice
+21,18-26 years,white,1,no,military,Odenton,suburban,family practice
+21,18-26 years,white,3,no,private payer,Odenton,suburban,family practice
+21,18-26 years,other/unknown,2,no,military,Odenton,suburban,family practice
+21,18-26 years,Hispanic,1,no,military,Odenton,suburban,family practice
+21,18-26 years,other/unknown,1,no,military,Odenton,suburban,family practice
+21,18-26 years,other/unknown,2,no,military,Odenton,suburban,family practice
+21,18-26 years,black,2,no,private payer,Odenton,suburban,family practice
+21,18-26 years,white,3,yes,private payer,Odenton,suburban,family practice
+21,18-26 years,other/unknown,1,no,military,Odenton,suburban,family practice
+21,18-26 years,black,1,no,private payer,Odenton,suburban,family practice
+21,18-26 years,black,2,no,private payer,Odenton,suburban,family practice
+21,18-26 years,other/unknown,2,no,private payer,Odenton,suburban,family practice
+21,18-26 years,white,2,no,military,Odenton,suburban,family practice
+21,18-26 years,black,1,no,military,Odenton,suburban,family practice
+21,18-26 years,other/unknown,3,yes,military,Odenton,suburban,family practice
+21,18-26 years,white,3,no,military,Odenton,suburban,family practice
+21,18-26 years,white,3,yes,private payer,Odenton,suburban,family practice
+21,18-26 years,white,2,no,private payer,White Marsh,suburban,OB-GYN
+21,18-26 years,white,2,no,private payer,White Marsh,suburban,OB-GYN
+21,18-26 years,white,3,yes,hospital based,White Marsh,suburban,OB-GYN
+21,18-26 years,white,2,no,private payer,White Marsh,suburban,OB-GYN
+21,18-26 years,white,2,no,private payer,White Marsh,suburban,OB-GYN
+21,18-26 years,white,2,no,private payer,White Marsh,suburban,OB-GYN
+21,18-26 years,white,1,no,military,White Marsh,suburban,OB-GYN
+21,18-26 years,Hispanic,1,no,private payer,White Marsh,suburban,OB-GYN
+21,18-26 years,black,3,yes,private payer,White Marsh,suburban,OB-GYN
+21,18-26 years,other/unknown,2,no,military,Odenton,suburban,OB-GYN
+21,18-26 years,other/unknown,2,no,private payer,Odenton,suburban,OB-GYN
+21,18-26 years,white,2,no,military,Odenton,suburban,OB-GYN
+21,18-26 years,black,3,yes,private payer,Odenton,suburban,OB-GYN
+21,18-26 years,black,2,no,private payer,Odenton,suburban,OB-GYN
+21,18-26 years,black,1,no,private payer,Odenton,suburban,OB-GYN
+21,18-26 years,black,1,no,private payer,Odenton,suburban,OB-GYN
+21,18-26 years,white,2,no,military,Odenton,suburban,OB-GYN
+21,18-26 years,white,2,no,military,Odenton,suburban,OB-GYN
+21,18-26 years,white,3,yes,military,Odenton,suburban,OB-GYN
+21,18-26 years,white,3,yes,private payer,Odenton,suburban,OB-GYN
+21,18-26 years,other/unknown,1,no,private payer,Odenton,suburban,OB-GYN
+21,18-26 years,white,3,yes,military,Odenton,suburban,OB-GYN
+21,18-26 years,other/unknown,1,no,private payer,Odenton,suburban,OB-GYN
+21,18-26 years,black,3,yes,private payer,Odenton,suburban,OB-GYN
+21,18-26 years,black,2,no,private payer,Odenton,suburban,OB-GYN
+21,18-26 years,white,3,no,private payer,Odenton,suburban,OB-GYN
+21,18-26 years,white,3,yes,military,Odenton,suburban,OB-GYN
+21,18-26 years,white,1,no,military,Odenton,suburban,OB-GYN
+21,18-26 years,other/unknown,1,no,private payer,Odenton,suburban,OB-GYN
+21,18-26 years,white,1,no,private payer,Odenton,suburban,OB-GYN
+21,18-26 years,other/unknown,1,no,military,Odenton,suburban,OB-GYN
+21,18-26 years,black,1,no,medical assistance,Odenton,suburban,OB-GYN
+21,18-26 years,other/unknown,3,yes,military,Odenton,suburban,OB-GYN
+21,18-26 years,white,3,yes,military,Odenton,suburban,OB-GYN
+21,18-26 years,white,2,no,private payer,Odenton,suburban,OB-GYN
+21,18-26 years,black,1,no,private payer,Bayview,urban,pediatric
+21,18-26 years,other/unknown,1,no,medical assistance,Bayview,urban,pediatric
+21,18-26 years,black,1,no,private payer,Bayview,urban,pediatric
+21,18-26 years,white,1,no,private payer,Bayview,urban,OB-GYN
+21,18-26 years,black,3,yes,hospital based,Bayview,urban,OB-GYN
+21,18-26 years,white,3,yes,private payer,Bayview,urban,OB-GYN
+21,18-26 years,black,3,yes,hospital based,Bayview,urban,OB-GYN
+21,18-26 years,white,3,yes,private payer,Bayview,urban,OB-GYN
+21,18-26 years,black,2,no,medical assistance,Bayview,urban,OB-GYN
+21,18-26 years,white,3,yes,private payer,Bayview,urban,OB-GYN
+21,18-26 years,white,1,no,hospital based,Bayview,urban,OB-GYN
+21,18-26 years,black,3,yes,private payer,Johns Hopkins Outpatient Center,urban,OB-GYN
+21,18-26 years,black,3,yes,private payer,Johns Hopkins Outpatient Center,urban,OB-GYN
+21,18-26 years,white,2,no,private payer,Johns Hopkins Outpatient Center,urban,OB-GYN
+21,18-26 years,black,1,no,private payer,Johns Hopkins Outpatient Center,urban,OB-GYN
+21,18-26 years,black,3,yes,medical assistance,Johns Hopkins Outpatient Center,urban,OB-GYN
+21,18-26 years,black,1,no,medical assistance,Johns Hopkins Outpatient Center,urban,OB-GYN
+22,18-26 years,white,2,no,military,Odenton,suburban,family practice
+22,18-26 years,black,1,no,private payer,Odenton,suburban,family practice
+22,18-26 years,black,3,yes,private payer,Odenton,suburban,family practice
+22,18-26 years,other/unknown,2,no,military,Odenton,suburban,family practice
+22,18-26 years,black,2,no,private payer,Odenton,suburban,family practice
+22,18-26 years,other/unknown,1,no,medical assistance,Odenton,suburban,family practice
+22,18-26 years,white,2,no,private payer,Odenton,suburban,family practice
+22,18-26 years,white,3,yes,military,Odenton,suburban,family practice
+22,18-26 years,white,1,no,military,Odenton,suburban,family practice
+22,18-26 years,white,1,no,military,Odenton,suburban,family practice
+22,18-26 years,white,3,yes,private payer,Odenton,suburban,family practice
+22,18-26 years,other/unknown,3,yes,private payer,Odenton,suburban,family practice
+22,18-26 years,black,3,yes,military,Odenton,suburban,family practice
+22,18-26 years,white,1,no,military,Odenton,suburban,family practice
+22,18-26 years,white,1,no,private payer,Odenton,suburban,family practice
+22,18-26 years,black,2,no,private payer,Odenton,suburban,family practice
+22,18-26 years,black,2,no,private payer,Odenton,suburban,family practice
+22,18-26 years,white,1,no,military,Odenton,suburban,family practice
+22,18-26 years,black,3,yes,military,Odenton,suburban,family practice
+22,18-26 years,black,3,yes,private payer,Odenton,suburban,family practice
+22,18-26 years,black,2,no,private payer,Odenton,suburban,family practice
+22,18-26 years,white,3,yes,private payer,Odenton,suburban,family practice
+22,18-26 years,black,3,yes,private payer,White Marsh,suburban,OB-GYN
+22,18-26 years,white,3,yes,military,White Marsh,suburban,OB-GYN
+22,18-26 years,white,3,no,private payer,White Marsh,suburban,OB-GYN
+22,18-26 years,white,2,no,private payer,White Marsh,suburban,OB-GYN
+22,18-26 years,white,2,no,hospital based,White Marsh,suburban,OB-GYN
+22,18-26 years,white,1,no,private payer,White Marsh,suburban,OB-GYN
+22,18-26 years,white,2,no,private payer,White Marsh,suburban,OB-GYN
+22,18-26 years,white,2,no,private payer,White Marsh,suburban,OB-GYN
+22,18-26 years,white,2,no,private payer,White Marsh,suburban,OB-GYN
+22,18-26 years,white,2,no,private payer,White Marsh,suburban,OB-GYN
+22,18-26 years,white,3,yes,private payer,Odenton,suburban,OB-GYN
+22,18-26 years,white,2,no,military,Odenton,suburban,OB-GYN
+22,18-26 years,white,3,yes,private payer,Odenton,suburban,OB-GYN
+22,18-26 years,white,1,no,military,Odenton,suburban,OB-GYN
+22,18-26 years,black,3,yes,private payer,Odenton,suburban,OB-GYN
+22,18-26 years,white,1,no,private payer,Odenton,suburban,OB-GYN
+22,18-26 years,white,2,no,private payer,Odenton,suburban,OB-GYN
+22,18-26 years,white,3,yes,private payer,Odenton,suburban,OB-GYN
+22,18-26 years,white,3,yes,private payer,Odenton,suburban,OB-GYN
+22,18-26 years,black,1,no,private payer,Odenton,suburban,OB-GYN
+22,18-26 years,black,1,no,private payer,Odenton,suburban,OB-GYN
+22,18-26 years,other/unknown,3,yes,military,Odenton,suburban,OB-GYN
+22,18-26 years,white,1,no,private payer,Odenton,suburban,OB-GYN
+22,18-26 years,other/unknown,1,no,private payer,Odenton,suburban,OB-GYN
+22,18-26 years,white,2,no,private payer,Odenton,suburban,OB-GYN
+22,18-26 years,white,2,no,military,Odenton,suburban,OB-GYN
+22,18-26 years,other/unknown,1,no,private payer,Odenton,suburban,OB-GYN
+22,18-26 years,black,3,yes,private payer,Odenton,suburban,OB-GYN
+22,18-26 years,white,1,no,private payer,Bayview,urban,OB-GYN
+22,18-26 years,black,3,yes,private payer,Bayview,urban,OB-GYN
+22,18-26 years,other/unknown,3,yes,private payer,Bayview,urban,OB-GYN
+22,18-26 years,black,2,no,hospital based,Johns Hopkins Outpatient Center,urban,OB-GYN
+22,18-26 years,white,1,no,private payer,Johns Hopkins Outpatient Center,urban,OB-GYN
+22,18-26 years,black,3,no,private payer,Johns Hopkins Outpatient Center,urban,OB-GYN
+22,18-26 years,black,1,no,private payer,Johns Hopkins Outpatient Center,urban,OB-GYN
+22,18-26 years,black,2,no,medical assistance,Johns Hopkins Outpatient Center,urban,OB-GYN
+22,18-26 years,white,2,no,private payer,Johns Hopkins Outpatient Center,urban,OB-GYN
+22,18-26 years,black,3,yes,private payer,Johns Hopkins Outpatient Center,urban,OB-GYN
+22,18-26 years,black,2,no,private payer,Johns Hopkins Outpatient Center,urban,OB-GYN
+22,18-26 years,black,1,no,private payer,Johns Hopkins Outpatient Center,urban,OB-GYN
+22,18-26 years,black,2,no,private payer,Johns Hopkins Outpatient Center,urban,OB-GYN
+22,18-26 years,black,1,no,private payer,Johns Hopkins Outpatient Center,urban,OB-GYN
+23,18-26 years,Hispanic,1,no,private payer,Odenton,suburban,family practice
+23,18-26 years,black,2,no,private payer,Odenton,suburban,family practice
+23,18-26 years,black,1,no,private payer,Odenton,suburban,family practice
+23,18-26 years,other/unknown,2,no,private payer,Odenton,suburban,family practice
+23,18-26 years,white,2,no,private payer,Odenton,suburban,family practice
+23,18-26 years,white,3,yes,private payer,Odenton,suburban,family practice
+23,18-26 years,white,1,no,private payer,Odenton,suburban,family practice
+23,18-26 years,black,3,yes,military,Odenton,suburban,family practice
+23,18-26 years,Hispanic,3,yes,military,Odenton,suburban,family practice
+23,18-26 years,other/unknown,3,yes,private payer,Odenton,suburban,family practice
+23,18-26 years,other/unknown,2,no,private payer,Odenton,suburban,family practice
+23,18-26 years,black,1,no,private payer,Odenton,suburban,family practice
+23,18-26 years,Hispanic,1,no,private payer,Odenton,suburban,family practice
+23,18-26 years,white,3,yes,private payer,Odenton,suburban,family practice
+23,18-26 years,white,1,no,private payer,Odenton,suburban,family practice
+23,18-26 years,black,1,no,private payer,Odenton,suburban,family practice
+23,18-26 years,white,1,no,private payer,Odenton,suburban,family practice
+23,18-26 years,other/unknown,1,no,private payer,Odenton,suburban,family practice
+23,18-26 years,other/unknown,2,no,private payer,Odenton,suburban,family practice
+23,18-26 years,white,1,no,private payer,Odenton,suburban,family practice
+23,18-26 years,other/unknown,1,no,private payer,Odenton,suburban,family practice
+23,18-26 years,other/unknown,2,no,private payer,Odenton,suburban,family practice
+23,18-26 years,white,2,no,military,Odenton,suburban,family practice
+23,18-26 years,black,3,yes,private payer,Odenton,suburban,family practice
+23,18-26 years,black,3,yes,private payer,Odenton,suburban,family practice
+23,18-26 years,white,1,no,private payer,Odenton,suburban,family practice
+23,18-26 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+23,18-26 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+23,18-26 years,white,1,no,private payer,White Marsh,suburban,OB-GYN
+23,18-26 years,white,1,no,private payer,White Marsh,suburban,OB-GYN
+23,18-26 years,Hispanic,2,no,private payer,White Marsh,suburban,OB-GYN
+23,18-26 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+23,18-26 years,white,2,no,private payer,White Marsh,suburban,OB-GYN
+23,18-26 years,white,1,no,private payer,White Marsh,suburban,OB-GYN
+23,18-26 years,white,1,no,private payer,White Marsh,suburban,OB-GYN
+23,18-26 years,white,1,no,private payer,White Marsh,suburban,OB-GYN
+23,18-26 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+23,18-26 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+23,18-26 years,white,3,yes,hospital based,White Marsh,suburban,OB-GYN
+23,18-26 years,white,3,yes,hospital based,White Marsh,suburban,OB-GYN
+23,18-26 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+23,18-26 years,white,2,no,private payer,White Marsh,suburban,OB-GYN
+23,18-26 years,white,3,yes,hospital based,White Marsh,suburban,OB-GYN
+23,18-26 years,black,3,yes,private payer,Odenton,suburban,OB-GYN
+23,18-26 years,black,3,yes,private payer,Odenton,suburban,OB-GYN
+23,18-26 years,black,2,no,private payer,Odenton,suburban,OB-GYN
+23,18-26 years,black,3,yes,private payer,Odenton,suburban,OB-GYN
+23,18-26 years,black,1,no,private payer,Odenton,suburban,OB-GYN
+23,18-26 years,white,3,yes,military,Odenton,suburban,OB-GYN
+23,18-26 years,white,3,yes,private payer,Odenton,suburban,OB-GYN
+23,18-26 years,black,1,no,private payer,Odenton,suburban,OB-GYN
+23,18-26 years,white,3,no,private payer,Odenton,suburban,OB-GYN
+23,18-26 years,white,3,yes,private payer,Odenton,suburban,OB-GYN
+23,18-26 years,white,2,no,private payer,Odenton,suburban,OB-GYN
+23,18-26 years,white,1,no,private payer,Odenton,suburban,OB-GYN
+23,18-26 years,other/unknown,2,no,private payer,Odenton,suburban,OB-GYN
+23,18-26 years,white,2,no,private payer,Odenton,suburban,OB-GYN
+23,18-26 years,white,1,no,private payer,Odenton,suburban,OB-GYN
+23,18-26 years,white,3,yes,private payer,Odenton,suburban,OB-GYN
+23,18-26 years,white,1,no,private payer,Odenton,suburban,OB-GYN
+23,18-26 years,white,3,yes,private payer,Odenton,suburban,OB-GYN
+23,18-26 years,white,2,no,private payer,Odenton,suburban,OB-GYN
+23,18-26 years,white,3,yes,hospital based,Bayview,urban,OB-GYN
+23,18-26 years,white,3,yes,private payer,Bayview,urban,OB-GYN
+23,18-26 years,other/unknown,3,yes,private payer,Bayview,urban,OB-GYN
+23,18-26 years,white,3,yes,private payer,Bayview,urban,OB-GYN
+23,18-26 years,other/unknown,1,no,private payer,Bayview,urban,OB-GYN
+23,18-26 years,white,2,no,private payer,Bayview,urban,OB-GYN
+23,18-26 years,black,3,no,hospital based,Bayview,urban,OB-GYN
+23,18-26 years,white,1,no,private payer,Johns Hopkins Outpatient Center,urban,OB-GYN
+23,18-26 years,black,1,no,private payer,Johns Hopkins Outpatient Center,urban,OB-GYN
+23,18-26 years,white,2,no,private payer,Johns Hopkins Outpatient Center,urban,OB-GYN
+23,18-26 years,white,1,no,hospital based,Johns Hopkins Outpatient Center,urban,OB-GYN
+23,18-26 years,white,1,no,private payer,Johns Hopkins Outpatient Center,urban,OB-GYN
+23,18-26 years,white,3,yes,private payer,Johns Hopkins Outpatient Center,urban,OB-GYN
+23,18-26 years,Hispanic,3,yes,private payer,Johns Hopkins Outpatient Center,urban,OB-GYN
+23,18-26 years,white,1,no,private payer,Johns Hopkins Outpatient Center,urban,OB-GYN
+23,18-26 years,black,1,no,medical assistance,Johns Hopkins Outpatient Center,urban,OB-GYN
+23,18-26 years,black,1,no,medical assistance,Johns Hopkins Outpatient Center,urban,OB-GYN
+23,18-26 years,Hispanic,2,no,private payer,Johns Hopkins Outpatient Center,urban,OB-GYN
+24,18-26 years,black,2,no,private payer,Odenton,suburban,family practice
+24,18-26 years,other/unknown,2,no,private payer,Odenton,suburban,family practice
+24,18-26 years,white,2,no,private payer,Odenton,suburban,family practice
+24,18-26 years,white,2,no,military,Odenton,suburban,family practice
+24,18-26 years,white,1,no,private payer,Odenton,suburban,family practice
+24,18-26 years,black,1,no,private payer,Odenton,suburban,family practice
+24,18-26 years,black,2,no,private payer,Odenton,suburban,family practice
+24,18-26 years,white,2,no,military,Odenton,suburban,family practice
+24,18-26 years,white,2,no,private payer,Odenton,suburban,family practice
+24,18-26 years,black,1,no,private payer,Odenton,suburban,family practice
+24,18-26 years,white,1,no,private payer,Odenton,suburban,family practice
+24,18-26 years,white,2,no,private payer,White Marsh,suburban,OB-GYN
+24,18-26 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+24,18-26 years,Hispanic,3,yes,hospital based,White Marsh,suburban,OB-GYN
+24,18-26 years,white,2,no,private payer,White Marsh,suburban,OB-GYN
+24,18-26 years,white,2,no,private payer,White Marsh,suburban,OB-GYN
+24,18-26 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+24,18-26 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+24,18-26 years,other/unknown,3,yes,hospital based,White Marsh,suburban,OB-GYN
+24,18-26 years,white,2,no,private payer,White Marsh,suburban,OB-GYN
+24,18-26 years,black,2,no,private payer,White Marsh,suburban,OB-GYN
+24,18-26 years,white,1,no,private payer,White Marsh,suburban,OB-GYN
+24,18-26 years,Hispanic,2,no,private payer,White Marsh,suburban,OB-GYN
+24,18-26 years,white,3,yes,hospital based,White Marsh,suburban,OB-GYN
+24,18-26 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+24,18-26 years,white,3,yes,hospital based,White Marsh,suburban,OB-GYN
+24,18-26 years,white,1,no,private payer,Odenton,suburban,OB-GYN
+24,18-26 years,white,3,yes,private payer,Odenton,suburban,OB-GYN
+24,18-26 years,white,3,yes,private payer,Odenton,suburban,OB-GYN
+24,18-26 years,black,3,yes,private payer,Odenton,suburban,OB-GYN
+24,18-26 years,black,2,no,private payer,Odenton,suburban,OB-GYN
+24,18-26 years,white,2,no,private payer,Odenton,suburban,OB-GYN
+24,18-26 years,white,1,no,private payer,Odenton,suburban,OB-GYN
+24,18-26 years,white,2,no,private payer,Odenton,suburban,OB-GYN
+24,18-26 years,other/unknown,2,no,private payer,Odenton,suburban,OB-GYN
+24,18-26 years,white,1,no,hospital based,Odenton,suburban,OB-GYN
+24,18-26 years,white,3,yes,private payer,Odenton,suburban,OB-GYN
+24,18-26 years,other/unknown,2,no,private payer,Odenton,suburban,OB-GYN
+24,18-26 years,white,3,yes,private payer,Odenton,suburban,OB-GYN
+24,18-26 years,black,3,no,private payer,Odenton,suburban,OB-GYN
+24,18-26 years,black,1,no,military,Odenton,suburban,OB-GYN
+24,18-26 years,black,2,no,private payer,Odenton,suburban,OB-GYN
+24,18-26 years,white,3,yes,private payer,Odenton,suburban,OB-GYN
+24,18-26 years,other/unknown,1,no,private payer,Odenton,suburban,OB-GYN
+24,18-26 years,white,3,yes,private payer,Odenton,suburban,OB-GYN
+24,18-26 years,white,1,no,private payer,Odenton,suburban,OB-GYN
+24,18-26 years,white,2,no,private payer,Odenton,suburban,OB-GYN
+24,18-26 years,white,1,no,private payer,Odenton,suburban,OB-GYN
+24,18-26 years,white,3,yes,private payer,Odenton,suburban,OB-GYN
+24,18-26 years,other/unknown,1,no,private payer,Odenton,suburban,OB-GYN
+24,18-26 years,white,2,no,private payer,Odenton,suburban,OB-GYN
+24,18-26 years,other/unknown,1,no,private payer,Odenton,suburban,OB-GYN
+24,18-26 years,white,2,no,military,Odenton,suburban,OB-GYN
+24,18-26 years,white,3,yes,military,Odenton,suburban,OB-GYN
+24,18-26 years,white,2,no,private payer,Odenton,suburban,OB-GYN
+24,18-26 years,other/unknown,1,no,private payer,Odenton,suburban,OB-GYN
+24,18-26 years,white,1,no,military,Odenton,suburban,OB-GYN
+24,18-26 years,black,2,no,private payer,Odenton,suburban,OB-GYN
+24,18-26 years,white,3,yes,private payer,Bayview,urban,OB-GYN
+24,18-26 years,black,1,no,medical assistance,Bayview,urban,OB-GYN
+24,18-26 years,other/unknown,3,yes,private payer,Bayview,urban,OB-GYN
+24,18-26 years,white,3,yes,private payer,Bayview,urban,OB-GYN
+24,18-26 years,white,3,yes,private payer,Bayview,urban,OB-GYN
+24,18-26 years,white,1,no,medical assistance,Bayview,urban,OB-GYN
+24,18-26 years,white,3,yes,private payer,Bayview,urban,OB-GYN
+24,18-26 years,white,3,yes,hospital based,Bayview,urban,OB-GYN
+24,18-26 years,white,3,yes,private payer,Bayview,urban,OB-GYN
+24,18-26 years,black,1,no,hospital based,Johns Hopkins Outpatient Center,urban,OB-GYN
+24,18-26 years,white,2,no,hospital based,Johns Hopkins Outpatient Center,urban,OB-GYN
+24,18-26 years,white,2,no,private payer,Johns Hopkins Outpatient Center,urban,OB-GYN
+24,18-26 years,white,1,no,private payer,Johns Hopkins Outpatient Center,urban,OB-GYN
+24,18-26 years,white,2,no,private payer,Johns Hopkins Outpatient Center,urban,OB-GYN
+24,18-26 years,white,3,yes,private payer,Johns Hopkins Outpatient Center,urban,OB-GYN
+24,18-26 years,black,1,no,medical assistance,Johns Hopkins Outpatient Center,urban,OB-GYN
+24,18-26 years,black,3,yes,private payer,Johns Hopkins Outpatient Center,urban,OB-GYN
+24,18-26 years,black,1,no,medical assistance,Johns Hopkins Outpatient Center,urban,OB-GYN
+24,18-26 years,black,1,no,hospital based,Johns Hopkins Outpatient Center,urban,OB-GYN
+25,18-26 years,white,1,no,private payer,Odenton,suburban,family practice
+25,18-26 years,black,1,no,private payer,Odenton,suburban,family practice
+25,18-26 years,other/unknown,2,no,military,Odenton,suburban,family practice
+25,18-26 years,white,3,yes,private payer,Odenton,suburban,family practice
+25,18-26 years,black,2,no,medical assistance,Odenton,suburban,family practice
+25,18-26 years,white,1,no,private payer,Odenton,suburban,family practice
+25,18-26 years,white,1,no,military,Odenton,suburban,OB-GYN
+25,18-26 years,other/unknown,2,no,military,Odenton,suburban,family practice
+25,18-26 years,white,3,yes,private payer,Odenton,suburban,family practice
+25,18-26 years,other/unknown,2,no,private payer,Odenton,suburban,family practice
+25,18-26 years,white,2,no,private payer,Odenton,suburban,family practice
+25,18-26 years,other/unknown,1,no,private payer,Odenton,suburban,family practice
+25,18-26 years,white,1,no,private payer,Odenton,suburban,family practice
+25,18-26 years,black,1,no,private payer,Odenton,suburban,family practice
+25,18-26 years,white,2,no,private payer,Odenton,suburban,family practice
+25,18-26 years,Hispanic,3,yes,private payer,Odenton,suburban,family practice
+25,18-26 years,white,2,no,military,Odenton,suburban,family practice
+25,18-26 years,other/unknown,3,yes,private payer,Odenton,suburban,family practice
+25,18-26 years,white,2,no,private payer,Odenton,suburban,family practice
+25,18-26 years,white,1,no,private payer,Odenton,suburban,family practice
+25,18-26 years,white,1,no,private payer,Odenton,suburban,family practice
+25,18-26 years,white,1,no,private payer,Odenton,suburban,family practice
+25,18-26 years,white,2,no,private payer,White Marsh,suburban,OB-GYN
+25,18-26 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+25,18-26 years,white,2,no,private payer,White Marsh,suburban,OB-GYN
+25,18-26 years,white,3,yes,hospital based,White Marsh,suburban,OB-GYN
+25,18-26 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+25,18-26 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+25,18-26 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+25,18-26 years,black,1,no,private payer,White Marsh,suburban,OB-GYN
+25,18-26 years,white,2,no,hospital based,White Marsh,suburban,OB-GYN
+25,18-26 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+25,18-26 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+25,18-26 years,white,1,no,private payer,White Marsh,suburban,OB-GYN
+25,18-26 years,white,1,no,private payer,White Marsh,suburban,OB-GYN
+25,18-26 years,black,3,yes,private payer,White Marsh,suburban,OB-GYN
+25,18-26 years,black,3,yes,private payer,White Marsh,suburban,OB-GYN
+25,18-26 years,black,2,no,private payer,White Marsh,suburban,OB-GYN
+25,18-26 years,black,2,no,medical assistance,Odenton,suburban,OB-GYN
+25,18-26 years,white,2,no,private payer,Odenton,suburban,OB-GYN
+25,18-26 years,other/unknown,1,no,military,Odenton,suburban,OB-GYN
+25,18-26 years,white,1,no,private payer,Odenton,suburban,OB-GYN
+25,18-26 years,white,1,no,private payer,Odenton,suburban,OB-GYN
+25,18-26 years,white,1,no,private payer,Odenton,suburban,OB-GYN
+25,18-26 years,white,1,no,private payer,Odenton,suburban,OB-GYN
+25,18-26 years,white,1,no,military,Odenton,suburban,OB-GYN
+25,18-26 years,black,1,no,private payer,Odenton,suburban,OB-GYN
+25,18-26 years,white,2,no,private payer,Odenton,suburban,OB-GYN
+25,18-26 years,white,2,no,private payer,Odenton,suburban,OB-GYN
+25,18-26 years,other/unknown,3,yes,military,Odenton,suburban,OB-GYN
+25,18-26 years,black,3,yes,private payer,Odenton,suburban,OB-GYN
+25,18-26 years,white,2,no,military,Odenton,suburban,OB-GYN
+25,18-26 years,other/unknown,3,yes,private payer,Odenton,suburban,OB-GYN
+25,18-26 years,white,2,no,private payer,Odenton,suburban,OB-GYN
+25,18-26 years,white,3,no,private payer,Odenton,suburban,OB-GYN
+25,18-26 years,white,3,yes,private payer,Odenton,suburban,OB-GYN
+25,18-26 years,white,2,no,private payer,Odenton,suburban,OB-GYN
+25,18-26 years,white,2,no,private payer,Odenton,suburban,OB-GYN
+25,18-26 years,white,1,no,private payer,Odenton,suburban,OB-GYN
+25,18-26 years,other/unknown,1,no,military,Odenton,suburban,OB-GYN
+25,18-26 years,white,2,no,private payer,Odenton,suburban,OB-GYN
+25,18-26 years,white,1,no,private payer,Odenton,suburban,OB-GYN
+25,18-26 years,black,1,no,private payer,Odenton,suburban,OB-GYN
+25,18-26 years,other/unknown,2,no,private payer,Odenton,suburban,OB-GYN
+25,18-26 years,Hispanic,1,no,military,Odenton,suburban,OB-GYN
+25,18-26 years,white,3,yes,private payer,Odenton,suburban,OB-GYN
+25,18-26 years,white,1,no,medical assistance,Bayview,urban,OB-GYN
+25,18-26 years,white,3,yes,private payer,Bayview,urban,OB-GYN
+25,18-26 years,white,2,no,private payer,Bayview,urban,OB-GYN
+25,18-26 years,white,3,yes,private payer,Bayview,urban,OB-GYN
+25,18-26 years,black,1,no,medical assistance,Bayview,urban,OB-GYN
+25,18-26 years,white,2,no,private payer,Bayview,urban,OB-GYN
+25,18-26 years,black,3,yes,medical assistance,Bayview,urban,OB-GYN
+25,18-26 years,white,3,yes,hospital based,Bayview,urban,OB-GYN
+25,18-26 years,Hispanic,3,yes,hospital based,Johns Hopkins Outpatient Center,urban,OB-GYN
+25,18-26 years,white,3,yes,private payer,Johns Hopkins Outpatient Center,urban,OB-GYN
+25,18-26 years,black,2,no,private payer,Johns Hopkins Outpatient Center,urban,OB-GYN
+25,18-26 years,black,1,no,medical assistance,Johns Hopkins Outpatient Center,urban,OB-GYN
+25,18-26 years,white,1,no,hospital based,Johns Hopkins Outpatient Center,urban,OB-GYN
+25,18-26 years,white,2,no,private payer,Johns Hopkins Outpatient Center,urban,OB-GYN
+25,18-26 years,white,2,no,hospital based,Johns Hopkins Outpatient Center,urban,OB-GYN
+25,18-26 years,black,3,yes,medical assistance,Johns Hopkins Outpatient Center,urban,OB-GYN
+25,18-26 years,black,1,no,medical assistance,Johns Hopkins Outpatient Center,urban,OB-GYN
+25,18-26 years,black,1,no,private payer,Johns Hopkins Outpatient Center,urban,OB-GYN
+25,18-26 years,black,2,no,medical assistance,Johns Hopkins Outpatient Center,urban,OB-GYN
+25,18-26 years,black,1,no,medical assistance,Johns Hopkins Outpatient Center,urban,OB-GYN
+26,18-26 years,other/unknown,1,no,private payer,Odenton,suburban,family practice
+26,18-26 years,white,1,no,private payer,Odenton,suburban,family practice
+26,18-26 years,black,1,no,private payer,Odenton,suburban,family practice
+26,18-26 years,white,1,no,private payer,Odenton,suburban,family practice
+26,18-26 years,white,3,yes,private payer,Odenton,suburban,family practice
+26,18-26 years,white,1,no,private payer,Odenton,suburban,family practice
+26,18-26 years,other/unknown,3,yes,private payer,Odenton,suburban,family practice
+26,18-26 years,white,2,no,private payer,Odenton,suburban,family practice
+26,18-26 years,white,3,yes,private payer,Odenton,suburban,family practice
+26,18-26 years,white,2,no,military,Odenton,suburban,family practice
+26,18-26 years,white,1,no,military,Odenton,suburban,family practice
+26,18-26 years,black,2,no,private payer,Odenton,suburban,family practice
+26,18-26 years,black,1,no,medical assistance,Odenton,suburban,family practice
+26,18-26 years,white,2,no,private payer,Odenton,suburban,OB-GYN
+26,18-26 years,black,1,no,private payer,Odenton,suburban,family practice
+26,18-26 years,white,2,no,private payer,Odenton,suburban,family practice
+26,18-26 years,other/unknown,3,yes,private payer,Odenton,suburban,family practice
+26,18-26 years,white,2,no,private payer,Odenton,suburban,family practice
+26,18-26 years,white,2,no,private payer,Odenton,suburban,family practice
+26,18-26 years,white,2,no,private payer,Odenton,suburban,family practice
+26,18-26 years,other/unknown,2,no,private payer,Odenton,suburban,family practice
+26,18-26 years,white,2,no,private payer,Odenton,suburban,family practice
+26,18-26 years,black,2,no,private payer,Odenton,suburban,family practice
+26,18-26 years,white,3,yes,military,Odenton,suburban,family practice
+26,18-26 years,white,2,no,military,Odenton,suburban,family practice
+26,18-26 years,other/unknown,2,no,private payer,Odenton,suburban,family practice
+26,18-26 years,white,3,yes,private payer,Odenton,suburban,family practice
+26,18-26 years,white,2,no,private payer,Odenton,suburban,family practice
+26,18-26 years,other/unknown,2,no,private payer,Odenton,suburban,family practice
+26,18-26 years,white,1,no,private payer,Odenton,suburban,family practice
+26,18-26 years,black,1,no,private payer,White Marsh,suburban,OB-GYN
+26,18-26 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+26,18-26 years,white,2,no,hospital based,White Marsh,suburban,OB-GYN
+26,18-26 years,black,2,no,private payer,White Marsh,suburban,OB-GYN
+26,18-26 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+26,18-26 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+26,18-26 years,black,1,no,private payer,White Marsh,suburban,OB-GYN
+26,18-26 years,white,2,no,private payer,White Marsh,suburban,OB-GYN
+26,18-26 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+26,18-26 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+26,18-26 years,white,1,no,private payer,White Marsh,suburban,OB-GYN
+26,18-26 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+26,18-26 years,white,3,yes,private payer,White Marsh,suburban,OB-GYN
+26,18-26 years,white,1,no,private payer,White Marsh,suburban,OB-GYN
+26,18-26 years,white,2,no,private payer,White Marsh,suburban,OB-GYN
+26,18-26 years,white,2,no,private payer,White Marsh,suburban,OB-GYN
+26,18-26 years,white,3,yes,hospital based,White Marsh,suburban,OB-GYN
+26,18-26 years,other/unknown,1,no,private payer,Odenton,suburban,OB-GYN
+26,18-26 years,white,3,yes,private payer,Odenton,suburban,OB-GYN
+26,18-26 years,white,2,no,private payer,Odenton,suburban,OB-GYN
+26,18-26 years,black,1,no,private payer,Odenton,suburban,OB-GYN
+26,18-26 years,white,1,no,military,Odenton,suburban,OB-GYN
+26,18-26 years,white,3,yes,private payer,Odenton,suburban,OB-GYN
+26,18-26 years,white,1,no,military,Odenton,suburban,OB-GYN
+26,18-26 years,white,3,yes,private payer,Odenton,suburban,OB-GYN
+26,18-26 years,other/unknown,2,no,military,Odenton,suburban,OB-GYN
+26,18-26 years,white,3,yes,private payer,Odenton,suburban,OB-GYN
+26,18-26 years,white,1,no,private payer,Odenton,suburban,OB-GYN
+26,18-26 years,white,1,no,private payer,Odenton,suburban,OB-GYN
+26,18-26 years,white,1,no,private payer,Odenton,suburban,OB-GYN
+26,18-26 years,white,3,yes,private payer,Odenton,suburban,OB-GYN
+26,18-26 years,white,3,yes,private payer,Odenton,suburban,OB-GYN
+26,18-26 years,other/unknown,3,yes,private payer,Odenton,suburban,OB-GYN
+26,18-26 years,white,2,no,military,Odenton,suburban,OB-GYN
+26,18-26 years,other/unknown,2,no,private payer,Odenton,suburban,OB-GYN
+26,18-26 years,white,3,yes,medical assistance,Bayview,urban,OB-GYN
+26,18-26 years,other/unknown,3,yes,private payer,Bayview,urban,OB-GYN
+26,18-26 years,white,3,yes,hospital based,Bayview,urban,OB-GYN
+26,18-26 years,Hispanic,3,yes,private payer,Bayview,urban,OB-GYN
+26,18-26 years,white,2,no,hospital based,Bayview,urban,OB-GYN
+26,18-26 years,white,3,yes,private payer,Bayview,urban,OB-GYN
+26,18-26 years,white,1,no,private payer,Bayview,urban,OB-GYN
+26,18-26 years,other/unknown,3,no,hospital based,Johns Hopkins Outpatient Center,urban,OB-GYN
+26,18-26 years,white,2,no,private payer,Johns Hopkins Outpatient Center,urban,OB-GYN
+26,18-26 years,white,1,no,hospital based,Johns Hopkins Outpatient Center,urban,OB-GYN
+26,18-26 years,black,1,no,hospital based,Johns Hopkins Outpatient Center,urban,OB-GYN
+26,18-26 years,black,3,no,medical assistance,Johns Hopkins Outpatient Center,urban,OB-GYN
+26,18-26 years,black,3,yes,hospital based,Johns Hopkins Outpatient Center,urban,OB-GYN
+26,18-26 years,black,3,yes,medical assistance,Johns Hopkins Outpatient Center,urban,OB-GYN
+26,18-26 years,black,3,yes,medical assistance,Johns Hopkins Outpatient Center,urban,OB-GYN
+26,18-26 years,black,2,no,medical assistance,Johns Hopkins Outpatient Center,urban,OB-GYN
+26,18-26 years,black,1,no,medical assistance,Johns Hopkins Outpatient Center,urban,OB-GYN
